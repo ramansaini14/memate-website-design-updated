@@ -20,6 +20,23 @@ const schema = yup.object().shape({
   pnumber: yup.string().required("Phone number is required").matches(/^\+\d{1,3}\d{4,14}$/, 'Invalid phone number format'),
 });
 
+// Default form values to prevent controlled/uncontrolled switching
+const defaultValues = {
+  cname: "",
+  abn: "",
+  email: "",
+  discription: "",
+  state: "",
+  website: "",
+  country: "",
+  supplied_services: null,
+  industry: null,
+  pnumber: "",
+  streetaddress: "",
+  city: "",
+  postcode: "",
+};
+
 function AddYourCompany() {
   const [upload_file, setUploadFile] = useState(null);
   const [visible, setVisible] = useState(false);
@@ -28,12 +45,19 @@ function AddYourCompany() {
   const [error, setError] = useState('');
   const [industryOptions, setIndustryOptions] = useState([]);
   const [servicesOptions, setServicesOptions] = useState([]);
+  const [isClient, setIsClient] = useState(false);
 
-  const { control, handleSubmit,setValue, formState: { errors }, reset } = useForm({
-    resolver: yupResolver(schema)
+  const { control, handleSubmit, setValue, formState: { errors }, reset } = useForm({
+    resolver: yupResolver(schema),
+    defaultValues: defaultValues // Provide consistent default values
   });
 
- useEffect(() => {
+  // Handle client-side rendering to prevent hydration mismatches
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
+
+  useEffect(() => {
     const loadIndustries = async () => {
       const industries = await industriesListing();
       const formatted = industries.map(ind => ({
@@ -46,28 +70,12 @@ function AddYourCompany() {
   }, []);
 
   const formReset = () => {
-     reset({
-      upload_file:"",
-      cname: "",
-      abn: "",
-      email: "",
-      discription: "",
-      state: "",
-      website: "",
-      country: "",
-      supplied_services: null,
-      industry: null,
-      pnumber: "",
-      streetaddress: "",
-      city: "",
-      postcode: "",  
-      
-     })
+    reset(defaultValues);
+    setUploadFile(null);
+    setServicesOptions([]);
   }
 
-  useEffect(()=> {
-    formReset();
-  }, [])
+  // Removed formReset useEffect to prevent controlled/uncontrolled switching
 
 
   const onSubmit = async (data) => {
@@ -171,6 +179,18 @@ const supplier_services_id = data.supplied_services?.value || '';
 
  
 
+  // Don't render until client-side to prevent hydration mismatches
+  if (!isClient) {
+    return (
+      <div className="parent-blog-page customerstoriespage">
+        <div className="parent-blog">
+          <div style={{ padding: '2rem', textAlign: 'center' }}>
+            Loading...
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <>
@@ -232,7 +252,7 @@ const supplier_services_id = data.supplied_services?.value || '';
                             render={({ field }) => (
                               <PhoneInput
                                 defaultCountry="AU" 
-                                value={field.value}
+                                value={field.value || ""}
                                 className="phoneInput phoneInputFU"
                                 placeholder="+61" 
                                 // containerClass={style.countrySelector}
@@ -261,15 +281,20 @@ const supplier_services_id = data.supplied_services?.value || '';
             render={({ field }) => (
               <Select
                 {...field}
+                instanceId="industry-select"
                 options={industryOptions}
                 styles={customStyles}
                 placeholder="Select an industry..."
                 isSearchable
                 onChange={async (selected) => {
                   field.onChange(selected);
-                  const services = await fetchServicesByIndustryId(selected.value);
-                  setServicesOptions(services);
-                  setValue("supplied_services", []); // Reset services when industry changes
+                  if (selected?.value) {
+                    const services = await fetchServicesByIndustryId(selected.value);
+                    setServicesOptions(services);
+                  } else {
+                    setServicesOptions([]);
+                  }
+                  setValue("supplied_services", null); // Reset services when industry changes
                 }}
                 components={{
                   IndicatorSeparator: () => null,
@@ -287,6 +312,7 @@ const supplier_services_id = data.supplied_services?.value || '';
                         render={({ field }) => (
                           <Select
                             {...field}
+                            instanceId="services-select"
                             options={servicesOptions}
                             styles={customStyles}
                             placeholder="Select a service..."
