@@ -2,6 +2,7 @@ import React from "react";
 import Images from "../../assests/images";
 import "./styles.css";
 import Link from 'next/link';
+import Image from 'next/image';
 import TronRequestADemo from "../../layout/hover-button/TronRequestADemo";
 import WhiteButtonBammer from "../../layout/hover-button/WhiteButtonBammer";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
@@ -37,34 +38,19 @@ const BussinessManagement = () => {
         <div className="macBook-image">
           <div className="big-img-mac">
             <div className="big-img-macMain">
-              {/* <img src={Images.landingHero}  alt="Landing Hero" /> */}
-              {/* <picture>
-            <source srcSet={Images.landingHero} media="(min-width: 2000px)" />
-            <source srcSet={Images.landingHero1x} media="(min-width: 1921px)" />
-            <img src={Images.landingHero1x} alt="Landing Hero"/>
-          </picture> */}
-              {/* <link rel="preload" fetchpriority="high" as="image" href={`${Images.landingHero}`} type="image/webp"></link>
-              <img src={Images.landingHero} alt="Business Management Software" fetchpriority="high"
-               width="800"
-              height="600"
-              style={{ width: "100%", height: "auto" }}
-              
-              /> */}
-           
-              {/* <LazyLoadImage
-            alt="Business Management Software"
-            src={Images.landingHero}
-            effect="blur"
-            style={{ width: "100%", height: "auto" }}
-          /> */}
-          <img
-  alt="Business Management Software"
-  src={Images.landingHero}
-  width="1200"
-  height="600"
-  style={{ width: '100%', height: 'auto' }}
-  loading="eager"
-/>
+              <Image
+                alt="Business Management Software"
+                src={Images.landingHero}
+                width={1200}
+                height={600}
+                style={{ width: '100%', height: 'auto' }}
+                priority
+                quality={90}
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px"
+                placeholder="blur"
+                blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkbHB0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+                fetchPriority="high"
+              />
             </div>
             {/* <div className="iphone-image"> */}
               {/* <img
