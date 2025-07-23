@@ -1,0 +1,9 @@
+.sales-process-optimization-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sales-process-optimization-image{
+    margin-right: 2%;
+}

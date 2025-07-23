@@ -1,0 +1,144 @@
+.invest-plan-one {
+  padding: 40px 48px;
+  border-radius: 24px;
+  border: 0.97px solid #eff0f6;
+  color: #ffffff;
+  box-shadow: rgba(20, 20, 43, 0.08) 0px 8px 24px;
+}
+
+.plan-one-benefite {
+  margin: auto;
+}
+
+.invest-plan-one-header {
+  display: flex;
+  margin-right: auto;
+  gap: 18px;
+}
+
+.invest-plan-one-heading {
+  margin-top: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.invest-plan-one-heading-top {
+  font-size: 16px;
+  font-family: sequel_sans_roman_head!important;
+  color: #888e9e;
+  line-height: 16px;
+  font-weight: 420;
+  font-style: normal;
+}
+
+.invest-plan-one-heading-bottom {
+  font-size: 24px;
+  font-family: sequel_sans_roman_head!important;
+  color: #29292b;
+  line-height: 36px;
+  font-weight: 420;
+}
+
+.invest-plan-one-overview {
+  margin-top: 17px;
+  width: 100%;
+}
+
+.invest-plan-one-overview-content {
+  color: #888e9e;
+  font-size: 18px;
+  max-width: 298px;
+  line-height: 27px;
+  font-family: sequel_sans_roman_head!important;
+  font-weight: 360;
+}
+
+.invest-plan-charges {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 9.85px;
+  margin-top: 25px;
+}
+
+.plan-money {
+  color: #29292b;
+  font-family: sequel_sans_roman_head!important;
+  font-weight: 420;
+  line-height: 63.87px;
+  font-size: 56px;
+}
+
+.money-period {
+  color: #888e9e;
+  font-family: sequel_sans_roman_head!important;
+  font-weight: 360;
+  line-height: 21.29px;
+  font-size: 18px;
+  margin-top: 5%;
+}
+
+.invest-plan-features {
+  margin-right: auto;
+  margin-top: 24px;
+  height: 100%;
+}
+
+.invest-plan-features-heading {
+  color: #29292b;
+  font-size: 17.42px;
+  line-height: 19.36px;
+  font-family: sequel_sans_roman_head!important;
+  font-weight: 420;
+}
+
+.invest-plan-features-total-heading {
+  margin-top: 22.58px;
+}
+
+.invest-plan-data {
+  margin-right: auto;
+}
+
+.invest-plan-tick {
+  max-width: 25.16px;
+  max-height: 25.16px;
+}
+
+.inest-plan-data-name {
+  color: #29292b;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 19.36px;
+  font-family: sequel_sans_roman_head!important;
+}
+
+.invest-whole-feature {
+  display: flex;
+  gap: 13.55px;
+  align-items: center;
+  margin-top: 15.48px;
+}
+
+.investment-plan-button {
+  margin-top: 74.09px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  
+}
+
+.investment-plan-get-started {
+  width: 298.07px;
+  border:1px solid #29292B;
+  height: 64px;
+  background-color: #ffffff;
+  border-radius: 60px;
+  font-size: 18px;
+  font-family: sequel_sans_roman_head!important;
+  color: #29292B;
+  font-weight: 600;
+  line-height: 21.24px;
+}

@@ -1,0 +1,106 @@
+.Errorpage{
+    width: 1200px;
+    margin: 0 auto;
+    .imgText{
+        position: relative;
+        h3{
+            text-align: center;
+            font-size: 220px;
+            line-height: 184px;
+            letter-spacing: 1px;
+            font-family: 'sequel_sans_bold_disp' !important;
+            font-weight: 100;
+            background: linear-gradient(to right, #1ab2ff 10.15%, #ffb258 69%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .images{
+            position: absolute;
+            top: 0;
+            right: 275px;
+            right: 0;
+            margin: 0 auto;
+        }
+    }
+    .TextHead{
+        margin: 160px auto 0;
+        text-align: center;
+        h2{
+            color: #29292B;
+            font-size: 42px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            letter-spacing: -1px;
+        }
+        p{
+            color: #757B8A;
+            text-align: center;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 140%; 
+        }
+        .button{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 35px;
+            margin-bottom: 65px;
+            a{
+                border-radius: 60px;
+                border: 1px solid #29292B;
+                width: 168px;
+                height: 52px;
+                display: flex;
+                padding: 3.5px 1px;
+                justify-content: center;
+                align-items: center;
+                flex-shrink: 0;
+                color: #29292B;
+                text-align: center;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 415;
+                line-height: normal;
+                text-decoration: none;
+                margin-left: 10px;
+                &:last-child{
+                    border-radius: 117px;
+                    background: #29292B;
+                    color: #fff;
+                }
+                img{
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 767px) {
+.Errorpage{
+    width:100%;
+    padding: 15px;
+}
+.imgText{
+    padding-top: 50px !important;
+}
+.imgText h1{
+    font-size: 130px !important;
+    line-height: 130px !important;
+}
+.imgText img{
+    width:100%;
+    position: inherit !important;
+}
+.TextHead{
+    margin: 0px auto 0 !important;
+}
+.TextHead h2{
+    font-size:24px !important;
+}
+.button {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+}
+}

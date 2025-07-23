@@ -1,0 +1,35 @@
+.sales-process-optimization-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sales-process-optimization-image{
+    margin-right: 2%;
+}
+@media screen and (max-width: 767px) {
+    .sales-process-optimization-wrapper {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .sales-process-optimization-wrapper {
+        gap: 15px;
+    }
+}
+@media screen and (max-width: 992px) and (min-width: 768px){
+    .sales-process-optimization-wrapper {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 15px;
+    }
+    .sales-process-optimization-wrapper img {
+        width: 100%;
+    }
+   
+}
+
+@media screen and (max-width: 1180px) and (min-width: 1024px){
+    .sales-process-optimization-wrapper {
+        gap: 50px;
+    }
+}

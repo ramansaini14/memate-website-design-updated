@@ -1,0 +1,67 @@
+.plan-three-content-overview{
+    padding: 18px 0px;
+    width: 100%;
+    margin-top: 24px;
+    border-top: 1px solid #f6f6f7;
+    border-bottom:1px solid #f6f6f7 ;
+}
+
+.plan-three-content{
+    max-width: 298.39px;
+    font-size: 18px;
+    line-height: 27px;
+    color: #475467;
+    font-family: sequel_sans_roman_head!important;
+    font-weight: 360;
+}
+
+.plan-three-features{
+  margin-top: 24px;  
+}
+
+.plan-three-features-have{
+    font-family: "sequel_sansbook_head" !important;
+    font-size: 17.42px;
+    line-height: 19.36px;
+    font-weight: 600;
+    color:#29292B;
+}
+
+.invest-whole-feature-three{
+    display: flex;
+    gap: 13.55px;
+    align-items: center;
+    margin-top: 15.48px;
+    width: 100%;
+}
+
+
+.inest-plan-data-name-three{
+    color: #29292b;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 19.36px;
+    font-family: "sequel_sansbook_head" !important;
+    max-width: 273.71px;
+}
+
+.investment-plan-button-three{
+    margin-top: 139.09px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.investment-plan-get-started-three{
+    width: 298.07px;
+    border: 1px solid #29292B;
+    height: 64px;
+    background-color: #ffffff;
+    border-radius: 60px;
+    font-size: 18px;
+    font-family: sequel_sans_roman_head!important;
+    color: #29292B;
+    font-weight: 600;
+    line-height: 21.24px;
+}

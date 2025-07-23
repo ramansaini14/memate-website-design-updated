@@ -1,0 +1,33 @@
+.pipeline-tool-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.pipeline-image-wrapper {
+  display: flex;
+}
+
+.filter-pipelineimage {
+  margin-bottom: auto;
+}
+@media screen and (max-width: 992px) and (min-width: 768px){
+  .pipeline-tool-wrapper {
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.pipeline-image-wrapper img {
+  width: 100%;
+}
+}
+
+@media screen and (max-width: 1180px) and (min-width: 1024px){
+  .pipeline-tool-wrapper {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    gap: 50px;
+}
+}

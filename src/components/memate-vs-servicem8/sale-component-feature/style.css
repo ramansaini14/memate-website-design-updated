@@ -1,0 +1,125 @@
+.sales-component-feature-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 100px;
+  flex-direction: column;
+}
+.difference-module_gridService8L__LssnP .request-btn {
+  justify-content: flex-start;
+}
+.request-btn.request-btn-leftq {
+  display: flex;
+  justify-content: flex-start;
+}
+/* changed */
+.sales-component-feature h2 {
+  color: #29292b;
+  text-align: center;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+  margin: 0px;
+  font-family: 'sequel_sans_semi_bold_disp' !important;
+}
+/* changed */
+.sales-component-feature span {
+  margin-top: 25px;
+  font-size: 118px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 100px;
+  padding-right: 10px;
+  font-family: 'sequel_sans_bold_disp'!important;
+}
+.sales-feature-wrapper{
+  margin-top: 84px;
+  max-width: 1200px;
+}
+.fontSBD{
+  font-family: 'sequel_sans_semi_bold_disp' !important;
+}
+.fontSSMD{
+  font-family: 'sequel_sans' !important;
+}
+.FS28{
+  font-size: 28px !important;
+}
+.FS48{
+  font-size: 48px !important;
+}
+@media screen and (max-width: 767px) {
+  .suitable-tender-wrapper {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+    flex-direction: column-reverse;
+}
+}
+@media screen and (max-width: 992px) and (min-width: 768px){
+  .sales-component-feature-wrapper {
+    margin-top: 15px;
+    padding: 0 15px;
+    flex-direction: column-reverse;
+}
+  .sales-component-feature h1 {
+    margin-top: 15px;
+    font-size: 70px;
+    line-height: 80px;
+    letter-spacing: 0;
+    padding-right: 0;
+}
+.sales-feature-wrapper {
+  margin-top: 15px;
+  max-width: 100%;
+}
+
+}
+
+@media screen and (max-width: 1180px) and (min-width: 1024px){
+  .sales-feature-wrapper {
+    margin-top: 50px;
+    max-width: 100%;
+    padding: 0 15px;
+}
+}
+
+.tooltipCompaire {
+  position: relative;
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 3px;
+}
+.tooltipCompaire .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -60px;
+    font-size: 10px;
+    white-space: normal;
+    line-height: 13px;
+    padding: 7px;
+}
+.tooltipCompaire .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
+.tooltipCompaire:hover .tooltiptext {
+  visibility: visible;
+}

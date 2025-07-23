@@ -1,0 +1,146 @@
+.Errorpage{
+    width: 1200px;
+    margin: 0 auto;
+    .imgText{
+        position: relative;
+        h1{
+            text-align: center;
+            font-size: 404px;
+            line-height: 410px;
+            letter-spacing: 1px;
+            font-family: 'sequel_sans_bold_disp' !important;
+            font-weight: 100;
+            background: linear-gradient(to right, #1ab2ff 33.15%, #ffb258 62%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .images{
+            position: absolute;
+    top: 42px;
+    left: 275px;
+    right: 0;
+    margin: 0 auto;
+        }
+    }
+    .TextHead{
+        margin: 100px auto 0;
+        text-align: center;
+        h2{
+            color: #29292B;
+            font-size: 42px;
+            font-style: normal;
+            font-weight: 100;
+            line-height: normal;
+            letter-spacing: -1px;
+            font-family: 'sequel_sans_semi_bold_disp' !important;
+        }
+        p{
+            color: #757B8A;
+            text-align: center;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 100;
+            line-height: 140%; 
+            font-family: 'sequel_sans_roman_head' !important;
+            margin-top: 15px;
+        }
+        .button{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 35px;
+            margin-bottom: 65px;
+            button{
+                border-radius: 60px;
+                border: 1px solid #29292B;
+                width: 168px;
+                height: 52px;
+                display: flex;
+                padding: 3.5px 1px;
+                justify-content: center;
+                align-items: center;
+                flex-shrink: 0;
+                color: #29292B;
+                text-align: center;
+                font-size: 18px;
+                font-family: sequel_sans_roman_head!important;
+                font-style: normal;
+                font-weight: 415;
+                line-height: normal;
+                text-decoration: none;
+                margin-left: 10px;
+                background: #fff;
+                span{
+                    color: #29292B;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 415;
+                    line-height: normal;
+                }
+                &:last-child{
+                    border-radius: 117px;
+                    background: #29292B;
+                    color: #fff;
+                }
+                img{
+                    margin-right: 10px;
+                }
+            }
+            a{
+                border-radius: 60px;
+                border: 1px solid #29292B;
+                width: 168px;
+                height: 52px;
+                display: flex;
+                padding: 3.5px 1px;
+                justify-content: center;
+                align-items: center;
+                flex-shrink: 0;
+                color: #29292B;
+                text-align: center;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 415;
+                line-height: normal;
+                text-decoration: none;
+                margin-left: 10px;
+                border-radius: 117px;
+                    background: #29292B;
+                    color: #fff;
+               
+                img{
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}
+.backBtn{
+    color: black;
+}
+@media screen and (max-width: 767px) {
+.Errorpage{
+    width:100%;
+    padding:15px;
+}
+.imgText h1 {
+    font-size: 160px !important;
+    line-height: 200px !important;
+}
+.imgText img {
+    width: 60%;
+    left: 135px !important;
+    top: 50px !important;
+}
+.TextHead{
+    margin: 40px auto 0 !important;
+}
+.TextHead h2{
+    font-size: 32px !important;
+}
+.button {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+}
+}

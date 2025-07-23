@@ -1,0 +1,127 @@
+.simple-box {
+    margin-top: 110px;
+}
+/* changed */
+.section-heading .simpleH2Heading {
+    color: #29292B;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 415;
+    line-height: normal;
+    letter-spacing: -1.44px;
+    margin: 0px;
+}
+p.ownwers-disp {
+    bottom: 13px;
+    color: #fff;
+    font-family: sequel_sans_roman_head,sans-serif!important;
+    font-size: 25.62px;
+    font-style: normal;
+    font-weight: 100;
+    left: 23px;
+    line-height: 110%;
+    margin: 0;
+    position: absolute;
+    text-align: left;
+}
+.powerful-client{
+    position: relative;
+}
+.client-prof {
+    position: relative;
+}
+.post-card-description {
+    word-wrap: break-word;
+    bottom: 15px;
+    height: 47px;
+    left: 10px;
+    position: absolute;
+    text-align: left;
+    white-space: normal;
+    width: 333px;
+}
+.shadowRightline4::after {
+    border-radius: 516.412px;
+    background: rgba(255, 178, 89, 0.44);
+    filter: blur(84.8499984741211px);
+    width: 167.504px;
+    height: 395.608px;
+    flex-shrink: 0;
+    content: "";
+    position: absolute;
+    right: 0px;
+    top: -128px;
+    z-index: -1;
+    transform: rotate(-45deg);
+}
+.powerful-client img {
+    border-radius: 26px;
+}
+.shadowLeftline4::before {
+    border-radius: 395.608px;
+    background: rgba(30, 178, 220, 0.33);
+    filter: blur(84.8499984741211px);
+    width: 97.296px;
+    height: 516.412px;
+    flex-shrink: 0;
+    content: "";
+    position: absolute;
+    left: 54px;
+    top: -184px;
+    z-index: -1;
+    transform: rotate(45deg);
+}
+.powerful-client-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.powerful-client {
+    width: 1200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+@media screen and (max-width: 767px) {
+    .simple-box {
+        margin-top: 15px;
+    }
+ .section-heading .simpleH2Heading {
+    font-size: 26px;
+    letter-spacing: 0;
+}
+    p.ownwers-disp {
+        left: 0;
+        font-size: 18px;
+    }
+    .powerful-client {
+        width: 100%;
+        grid-template-columns: 1fr;
+        gap: 15px;
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width: 992px) and (min-width: 768px){
+    .simple-box {
+        margin-top: 30px;
+        padding: 0 15px;
+    }
+    p.ownwers-disp {
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 1180px) and (min-width: 1024px){
+    .simple-box {
+        margin-top: 30px;
+        padding: 0 15px;
+    }
+    p.ownwers-disp {
+        left: 0;
+    }
+}

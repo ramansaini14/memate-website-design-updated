@@ -1,0 +1,43 @@
+.text-btn--navBig{
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+}
+.btn-base--blackBig{
+        z-index: 10;
+        background-color: #1d1d1f;
+        color: #fff;
+        border-radius: 2rem;
+        flex: none;
+        align-items: stretch;
+        width: 6.5625rem;
+        height: 52px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 14px 6px;
+        display: block;
+        position: static;
+        inset: auto 0%;
+        position: relative;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+.btn-base--tron-hoverBig {
+    z-index: auto;
+    border-radius: 48px;
+    justify-content: center;
+    align-items: center;
+    width: 6.8125rem;
+    height: 56px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    position: absolute;
+    inset: -3px 0% 0% -3px;
+    overflow: hidden;
+}

@@ -1,0 +1,375 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+@font-face {
+  font-family: "sequel_sansbook_head";
+  /* src: url("./font/sequel_sans_book_head-webfont.eot"); */
+  src: 
+    url("./font/SequelSans-BookHead.woff2") format("woff2"),
+    url("./font/SequelSans-BookHead.woff") format("woff"),
+    url("./font/SequelSans-BookHead.eot") format("embedded-opentype"),
+    url("./font/SequelSans-BookHead.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+    font-display: swap;
+}
+@font-face {
+  font-family: "sequel_sansbook_disp";
+  /* src: url("./font/sequel_sans_book_head-webfont.eot"); */
+  src: 
+    url("./font/SequelSans-BookDisp.woff2") format("woff2"),
+    url("./font/SequelSans-BookDisp.woff") format("woff"),
+    url("./font/SequelSans-BookDisp.eot") format("embedded-opentype"),
+    url("./font/SequelSans-BookDisp.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+    font-display: swap;
+}
+.sequel_sansbook_head{
+  font-family: 'sequel_sansbook_head' !important;
+  font-weight: 100;
+}
+/* DONE  */
+@font-face {
+  font-family: "sequel_sans";
+  src:
+    url("./font/SequelSans-MediumDisp.woff2") format("woff2"),
+    url("./font/SequelSans-MediumDisp.woff") format("woff"),
+    url("./font/SequelSans-MediumDisp.ttf") format("truetype"),
+    url("./font/SequelSans-MediumDisp.eot") format("embedded-opentype");
+  
+  font-weight: normal;
+  font-style: normal;
+    font-display: swap;
+}
+.sequel_sans{
+  font-family: 'sequel_sans' !important;
+  font-weight: 100;
+}
+/* DONE  */
+@font-face {
+  font-family: "sequel_sans_heavy_body";
+  src:url("./font/SequelSans-HeavyBody.ttf") format("truetype"),
+  url("./font/SequelSans-HeavyBody.eot") format("embedded-opentype"),
+  url("./font/SequelSans-HeavyBody.woff2") format("woff2"),
+  url("./font/SequelSans-HeavyBody.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+    font-display: swap;
+}
+.sequel_sans_heavy_body{
+  font-family: 'sequel_sans_heavy_body' !important;
+  font-weight: 100;
+}
+/* DONE  */
+@font-face {
+  font-family: "sequel_sans_bold_disp";
+  src:
+  url("./font/SequelSans-BoldDisp.woff2") format("woff2"),
+  url("./font/SequelSans-BoldDisp.woff") format("woff"),
+  url("./font/SequelSans-BoldDisp.ttf") format("truetype"),
+  url("./font/SequelSans-BoldDisp.eot") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+    font-display: swap;
+}
+
+.sequel_sans_bold_disp{
+  font-family: 'sequel_sans_bold_disp' !important;
+  font-weight: 100;
+}
+/* DONE  */
+@font-face {
+  font-family: "sequel_sans_bold_body";
+  src:
+  url("./font/SequelSans-BoldBody.woff2") format("woff2"),
+  url("./font/SequelSans-BoldBody.woff") format("woff"),
+  url("./font/SequelSans-BoldBody.ttf") format("truetype"),
+  url("./font/SequelSans-BoldBody.eot") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+    font-display: swap;
+}
+.sequel_sans_bold_body{
+  font-family: 'sequel_sans_bold_body' !important;
+  font-weight: 100;
+}
+/* DONE  */
+
+@font-face {
+  font-family: "sequel_sans_black_disp";
+  src:
+  url("./font/SequelSans-BlackDisp.woff2") format("woff2"),
+  url("./font/SequelSans-BlackDisp.woff") format("woff"),
+  url("./font/SequelSans-BlackDisp.ttf") format("truetype"),
+  url("./font/SequelSans-BlackDisp.eot") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+    font-display: swap;
+}
+.sequel_sans_black_disp{
+  font-family: 'sequel_sans_black_disp' !important;
+  font-weight: 100;
+}
+/* DONE  */
+
+/* @font-face {
+  font-family: "sequel_sans_bold_disp";
+  src:url("./font/SequelSans-BoldDisp.ttf") format("truetype"),
+  url("./font/SequelSans-BoldDisp.eot") format("embedded-opentype"),
+  url("./font/SequelSans-BoldDisp.woff2") format("woff2"),
+  url("./font/SequelSans-BoldDisp.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+.sequel_sans_bold_disp{
+  font-family: 'sequel_sans_bold_disp' !important;
+  font-weight: 100;
+} */
+
+
+@font-face {
+  font-family: "sequel_sans_roman_head";
+  src:
+  url("./font/SequelSans-RomanHead.woff2") format("woff2"),
+  url("./font/SequelSans-RomanHead.woff") format("woff"),
+  url("./font/SequelSans-RomanHead.ttf") format("truetype"),
+  url("./font/SequelSans-RomanHead.eot") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+    font-display: swap;
+  /* letter-spacing: -0.5px;
+  font-stretch: condensed; */
+}
+
+.sequel_sans_roman_head{
+  font-family: 'sequel_sans_roman_head' !important;
+  font-weight: 100;
+}
+/* DONE  */
+@font-face {
+  font-family: "sequel_sans_light_disp";
+  src:
+  url("./font/SequelSans-LightDisp.woff2") format("woff2"),
+  url("./font/SequelSans-LightDisp.woff") format("woff"),
+  url("./font/SequelSans-LightDisp.ttf") format("truetype"),
+  url("./font/SequelSans-LightDisp.eot") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+    font-display: swap;
+}
+.sequel_sans_light_disp{
+  font-family: 'sequel_sans_light_disp' !important;
+  font-weight: 100;
+}
+/* DONE  */
+@font-face {
+  font-family: "sequel_sans_bold_head";
+  src:
+  url("./font/SequelSans-BoldHead.woff2") format("woff2"),
+  url("./font/SequelSans-BoldHead.woff") format("woff"),
+  url("./font/SequelSans-BoldHead.ttf") format("truetype"),
+  url("./font/SequelSans-BoldHead.eot") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+    font-display: swap;
+}
+
+.sequel_sans_bold_head{
+  font-family: 'sequel_sans_bold_head' !important;
+  font-weight: 100;
+}
+/* DONE  */
+@font-face {
+  font-family: "sequel_sans_medium_head";
+  src:
+  url("./font/SequelSans-MediumHead.woff2") format("woff2"),
+  url("./font/SequelSans-MediumHead.woff") format("woff"),
+  url("./font/SequelSans-MediumHead.ttf") format("truetype"),
+  url("./font/SequelSans-MediumHead.eot") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+    font-display: swap;
+}
+/* DONE  */
+.sequel_sans_medium_head{
+  font-family: 'sequel_sans_medium_head' !important;
+  font-weight: 100;
+}
+
+
+@font-face {
+  font-family: "sequel_sans_roman_disp";
+  src:url("./font/SequelSans-RomanDisp.ttf") format("truetype"),
+  url("./font/SequelSans-RomanDisp.eot") format("embedded-opentype"),
+  url("./font/SequelSans-RomanDisp.woff2") format("woff2"),
+  url("./font/SequelSans-RomanDisp.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+    font-display: swap;
+}
+.sequel_sans_roman_disp{
+  font-family: 'sequel_sans_roman_disp' !important;
+  font-weight: 100;
+}
+
+/* DONE  */
+@font-face {
+  font-family: "sequel_sans_semi_bold_disp";
+  src:
+  url("./font/SequelSans-SemiBoldDisplay.woff2") format("woff2"),
+  url("./font/SequelSans-SemiBoldDisplay.woff") format("woff"),
+  url("./font/SequelSans-SemiBoldDisplay.ttf") format("truetype"),
+  url("./font/SequelSans-SemiBoldDisplay.eot") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+    font-display: swap;
+}
+.sequel_sans_semi_bold_disp{
+  font-family: 'sequel_sans_semi_bold_disp' !important;
+  font-weight: 100;
+}
+
+/* DONE  */
+@font-face {
+  font-family: "sequel_sans_heavy_disp";
+  src:
+  url("./font/SequelSans-HeavyDisp.woff2") format("woff2"),
+  url("./font/SequelSans-HeavyDisp.woff") format("woff"),
+  url("./font/SequelSans-HeavyDisp.ttf") format("truetype"),
+  url("./font/SequelSans-HeavyDisp.eot") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+    font-display: swap;
+}
+.sequel_sans_heavy_disp{
+  font-family: 'sequel_sans_heavy_disp' !important;
+  font-weight: 100;
+}
+
+/* DONE  */
+@font-face {
+  font-family: "sequel_sans_semi_bold_head";
+  src:
+  url("./font/SequelSans-SemiBoldHead.woff2") format("woff2"),
+  url("./font/SequelSans-SemiBoldHead.woff") format("woff"),
+  url("./font/SequelSans-SemiBoldHead.ttf") format("truetype"),
+  url("./font/SequelSans-SemiBoldHead.eot") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+    font-display: swap;
+}
+.sequel_sans_semi_bold_head{
+  font-family: 'sequel_sans_semi_bold_head' !important;
+  font-weight: 100;
+}
+/* DONE  */
+
+@font-face {
+  font-family: "inter_semi_bold";
+  src:
+  url("./font/Inter-SemiBold.woff2") format("woff2"),
+  url("./font/Inter-SemiBold.woff") format("woff"),
+  url("./font/Inter-SemiBold.ttf") format("truetype"),
+  url("./font/Inter-SemiBold.eot") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+    font-display: swap;
+}
+.inter_semi_bold{
+  font-family: 'inter_semi_bold' !important;
+  font-weight: 100;
+}
+@font-face {
+  font-family: "sequel_sans_black_head";
+  src:
+  url("./font/SequelSans-BlackHead.woff2") format("woff2"),
+  url("./font/SequelSans-BlackHead.woff") format("woff"),
+  url("./font/SequelSans-BlackHead.ttf") format("truetype"),
+  url("./font/SequelSans-BlackHead.eot") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+    font-display: swap;
+}
+.sequel_sans_black_head{
+  font-family: 'sequel_sans_black_head' !important;
+  font-weight: 100;
+}
+/* DONE  */
+@font-face {
+  font-family: "sequel_sans_light_obl_head";
+  src:
+  url("./font/SequelSans-LightOblHead.woff2") format("woff2"),
+  url("./font/SequelSans-LightOblHead.woff") format("woff"),
+  url("./font/SequelSans-LightOblHead.ttf") format("truetype"),
+  url("./font/SequelSans-LightOblHead.eot") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+    font-display: swap;
+}
+
+/* done  */
+@font-face {
+  font-family: "sequel_sans_medium_body";
+  src:
+  url("./font/SequelSans-MediumBody.woff2") format("woff2"),
+  url("./font/SequelSans-MediumBody.woff") format("woff"),
+  url("./font/SequelSans-MediumBody.ttf") format("truetype"),
+  url("./font/SequelSans-MediumBody.eot") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+    font-display: swap;
+}
+/* DONE  */
+@font-face {
+  font-family: "sequel_sans_roman_body";
+  src:
+  url("./font/SequelSans-RomanBody.woff2") format("woff2"),
+  url("./font/SequelSans-RomanBody.woff") format("woff"),
+  url("./font/SequelSans-RomanBody.ttf") format("truetype"),
+  url("./font/SequelSans-RomanBody.eot") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+    font-display: swap;
+}
+/* DONE  */
+@font-face {
+  font-family: "sequel_sans_semi_bold_body";
+  src:
+  url("./font/SequelSans-SemiBoldBody.woff2") format("woff2"),
+  url("./font/SequelSans-SemiBoldBody.woff") format("woff"),
+  url("./font/SequelSans-SemiBoldBody.ttf") format("truetype"),
+  url("./font/SequelSans-SemiBoldBody.eot") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+    font-display: swap;
+}
+/* DONE  */
+@font-face {
+  font-family: "inter_medium";
+  src:
+  url("./font/Inter-Medium.woff2") format("woff2"),
+  url("./font/Inter-Medium.woff") format("woff"),
+  url("./font/Inter-Medium.ttf") format("truetype"),
+  url("./font/Inter-Medium.eot") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+    font-display: swap;
+}
+.sequel_sans_light_obl_head{
+  font-family: 'sequel_sans_light_obl_head' !important;
+  font-weight: 100;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box !important;
+  text-decoration: none;
+}
+
+.button,button,a{
+  cursor: pointer !important
+}
+a b{
+  color: rgb(0, 202, 255);
+}

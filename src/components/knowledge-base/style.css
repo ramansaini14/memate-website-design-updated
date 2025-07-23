@@ -1,0 +1,55 @@
+.kb-main-section {
+    position: relative;
+    /* padding-top: 364px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.kb-main-section .kb-main-heading {
+    text-align: center;
+    font-feature-settings: "liga" off, "clig" off;
+    letter-spacing: 1px;
+    padding-top: 178px;
+    padding-bottom: 39px;
+    font-family: sequel_sans_bold_disp;
+    font-size: 220px;
+    font-style: normal;
+    font-weight: 425;
+    line-height: 164px;
+}
+.KnowledgeBaseMain img {
+    width: 415.37px;
+}
+
+.metatags{
+    padding: 20px 0 70px;
+}
+.kb-main-section .kb-main-heading {
+    background: linear-gradient(to right, #1ab2ff 10.15%, #ffb258 69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.kb-main-section .kb-main-image {
+    position: absolute;
+    top: -138px;
+    left: 50%;
+    transform: translateX(-76%);
+}
+
+@media screen and (max-width: 767px) {
+    h1.metatags {
+        font-size: 20px;
+        text-align: center;
+        padding: 0;
+    }
+    .kb-left-wrapper {
+        position: relative;
+        top: 0px;
+        direction: revert;
+        max-height: max-content;
+        max-height: initial !important;
+    }
+
+}

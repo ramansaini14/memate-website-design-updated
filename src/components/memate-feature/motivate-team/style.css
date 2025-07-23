@@ -1,0 +1,135 @@
+.motivate-team-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.efficiency-section{
+    width: 1200px;
+}
+
+.strean-line {
+    border-radius: 30px;
+    background: #F7F8FA;
+}
+.motivate-image.motivate-imagespace {
+    padding-right: 12px;
+}
+.boost-profits {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-top: 30px;
+}
+
+.operation-left {
+    padding: 50px;
+    text-align: left;
+}
+.motivateImageSetter img{
+    width: 100%;
+}
+.operation-left h2 {
+    color: #29292B;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 415;
+    line-height: normal;
+    letter-spacing: -1px;
+    font-family: 'sequel_sansbook_head' !important;
+    margin: 0px;
+    line-height: 25px;
+}
+
+.operation-left h1 {
+    color: #29292B;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1px;
+    font-family: 'sequel_sansbook_head' !important;
+    margin: 0px;
+    margin-bottom: 40px;
+}
+
+p.all-text {
+    color: #242122;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 410;
+    line-height: 100%;
+    letter-spacing: -0.21px;
+    font-family: 'sequel_sansbook_head' !important;
+    margin-bottom: 50px;
+}
+
+.operation-desp p {
+    color: #888E9E;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 360;
+    line-height: 140%;
+    max-width: 450px;
+    text-align: left;
+    margin-bottom: 48px;
+}
+
+button.get-started-btn {
+    border-radius: 60px;
+    border: 1px solid var(--Gray-900, #101828);
+    outline: none;
+    padding: 14px 36px;
+    background: transparent;
+    color: var(--Gray-900, #101828);
+    text-align: center;
+    -webkit-text-stroke-color: var(--Gray-900, #101828);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 415;
+    line-height: normal;
+    font-family: 'sequel_sansbook_head' !important;
+}
+
+.operation-right h1 {
+    background: linear-gradient(to right, #1AB2FF 33.15%, #FFB258 62%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0px;
+    text-align: center;
+    font-size: 118px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: -1px;
+    font-family: "Inter", sans-serif !important;
+}
+
+.motivate-image {
+    position: relative;
+}
+
+.mac-with-iphone img {
+    position: absolute;
+    bottom: 22px;
+    right: 10px;
+}
+@media screen and (max-width: 992px) and (min-width: 768px){
+    .efficiency-section, .operation-left {
+        width: 100%;
+    }
+    .mac-with-iphone img {
+        width: 100%;
+    }
+    .motivate-team-wrapper, .boost-profits {
+        display: block;
+    }
+    .operation-right, .mac-with-iphone {
+        margin-top: 30px;
+    }
+    .mac-with-iphone img {
+        position: inherit;
+    }
+}

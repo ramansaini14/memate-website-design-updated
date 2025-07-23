@@ -1,0 +1,114 @@
+.invest-plan-two {
+  padding: 40px 48px;
+  border-radius: 24px;
+  background: radial-gradient(
+    2006.76% 120.68% at -6.2% 4.87%,
+    #1ab2ff 0.15%,
+    #ffb258 100%
+  );
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border: 0.97px solid #eff0f6;
+  color: #ffffff;
+  box-shadow: #14142b14 0px 8px 24px;
+}
+
+.plan-one-benefite {
+  margin: auto;
+}
+
+.invest-plan-one-header {
+  display: flex;
+  margin-right: auto;
+  gap: 18px;
+  position: relative;
+}
+
+.invest-plan-two-header-top {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  line-height: 16px;
+  font-family: sequel_sans_roman_head!important;
+}
+
+.invest-plan-two-heading-top {
+  font-size: 24px;
+  font-family: sequel_sans_roman_head!important;
+  color: #ffffff;
+  font-weight: 600;
+  line-height: 36px;
+}
+
+.invest-plan-two-overview-content {
+  font-size: 20px;
+  line-height: 33px;
+  font-family: sequel_sans_roman_head!important;
+  font-weight: 400;
+  max-width: 298.39px;
+}
+
+.plan-money-two {
+  font-size: 56px;
+  font-weight: 600;
+  font-family: sequel_sans_roman_head!important;
+  color: #ffffff;
+}
+
+.money-period-two {
+  font-size: 18px;
+  font-family: sequel_sans_roman_head!important;
+  color: #ffffff;
+  font-weight: 360;
+  line-height: 21.29px;
+  margin-top: 2%;
+}
+
+.invest-plan-features-heading-two {
+  font-size: 17.42px;
+  font-family: sequel_sans_roman_head!important;
+  color: #ffffff;
+  font-weight: 600;
+  line-height: 19.36px;
+}
+
+.inest-plan-data-name-two {
+  font-size: 18px;
+  color: #ffffff;
+  font-family: sequel_sans_roman_head!important;
+  font-weight: 400;
+}
+
+.investment-plan-get-started-two {
+  width: 298.07px;
+  border: none;
+  height: 64px;
+  background-color: #ffffff;
+  border-radius: 60px;
+  font-size: 18px;
+  font-family: sequel_sans_roman_head!important;
+  color: #29292b;
+  font-weight: 600;
+  line-height: 21.24px;
+  margin-top: 40px;
+}
+
+.popular-plan {
+  border-radius: 9.678px;
+  background: rgba(255, 255, 255, 0.2);
+  left: 81%;
+  top: -25%;
+  position: absolute;
+  padding: 12.1px 14.08px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popular-plan p {
+  font-size: 16px;
+  font-family: "sequel_sans_light_disp" !important;
+  line-height: 13.55px;
+  font-weight: 500;
+}

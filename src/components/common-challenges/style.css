@@ -1,0 +1,619 @@
+.common-box-wrapper {
+    /* margin-top: 95px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(https://memate-website.s3.ap-southeast-2.amazonaws.com/assets/slider/streem-shadow-min.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+}
+.common-box {
+  width: 1200px;
+  height: 1521px;
+}
+
+.overcome-pro-content {
+  width: 80%;
+}
+.challenges-text h3 {
+    color: #29292B;
+    text-align: center;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 420;
+    line-height: 80px;
+    letter-spacing: -2.16px;
+    font-family: 'sequel_sans_semi_bold_disp' !important;
+    margin-top: 15px;
+    margin-bottom: 6px;
+}
+.challenges-text p{
+color: #757B8A;
+text-align: center;
+font-size: 24px;
+font-style: normal;
+font-weight: 360;
+line-height: 32px; 
+letter-spacing: -0.72px;
+ font-family: 'sequel_sans_roman_head' !important;
+ margin-bottom: 50px;
+}
+.project-profitability-space {
+  margin: 72px 0 !important;
+}
+.me-meta-card {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.max-cont-width {
+  width: 40%;
+  max-width: 40%;
+}
+
+.met-points {
+  position: relative;
+}
+
+img.main-bg-img {
+  width: 100%;
+}
+
+.main-bg-img img {
+  width: 100%;
+}
+
+.me-meta-image img {
+  position: absolute;
+  top: 28px;
+  left: 111px;
+}
+
+p.card-text {
+  position: absolute;
+  bottom: 45px;
+  color: #fff;
+  text-align: center;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 42px;
+  font-family: 'sequel_sans_roman_head' !important;
+}
+
+.internal-control {
+  border-radius: 30px;
+  background: #f7f8fa;
+  padding: 32px;
+  margin-top: 17px;
+}
+
+.control-text h2 {
+  color: #000;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+  margin: 0px;
+  font-family: sequel_sans_roman_head!important;
+}
+.internal-control-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.control-text p {
+  color: #000;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 140%;
+  margin: 0px;
+  text-align: center;
+  /* font-family: "sequel_sans" !important; */
+}
+.control-text p strong {
+  color: #29292B;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 140%;
+  font-family: 'sequel_sans_bold_body' !important;
+}
+.icons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  gap: 10px;
+  margin-top: 22px;
+}
+
+.user-prof {
+  border-radius: 16px;
+  border: 0.358px solid var(--Gray-200, #eaecf0);
+  background: #fff;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-prof img {
+  height: 32px;
+  width: 32px;
+}
+.streamlineimggrid {
+    width: 1200px;
+}
+.streamlineimggrid img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.gridboxstreamline.item1,.gridboxstreamline.item2,.gridboxstreamline.item3,.gridboxstreamline.item4{
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+}
+.gridboxstreamline.item1 h4, .gridboxstreamline.item3 h4, .gridboxstreamline.item4 h4 {
+    position: absolute;
+    bottom: 0;
+    padding: 32px;
+    color: #29292B;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 360;
+    line-height: 32px;
+    letter-spacing: -0.72px;
+    font-family: "sequel_sans_roman_head" !important;
+}
+ .gridboxstreamline.item2 h4 {
+    position: absolute;
+    bottom: 0;
+    padding: 32px;
+    color: #fff;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 360;
+    line-height: 32px;
+    letter-spacing: -0.72px;
+    font-family: "sequel_sans_roman_head" !important;
+}
+.gridboxstreamline.item2,.gridboxstreamline.item4{
+  padding-left: 12px;
+}
+.gridboxstreamline.item1,.gridboxstreamline.item2{
+  margin-bottom: 20px;
+}
+.gridboxstreamline.item3,.gridboxstreamline.item1{
+  padding-right: 12px;
+}
+.gridboxstreamline.item1 {
+    width: 428px;
+}
+.gridboxstreamline.item2 {
+    width: 749px;
+}
+.gridboxstreamline.item3 {
+    width: 749px;
+}
+
+.gridboxstreamline.item4 {
+    width: 428px;
+}
+
+.predict-side {
+  width: 58%;
+  max-width: 58%;
+  /* border-radius: 30px; */
+  /* background: #f7f8fa; */
+  /* padding-top: 46px; */
+  overflow: hidden;
+}
+
+.activities-text p {
+  color: var(--ios-status-bar-status-bar-text-color, #000);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  max-width: 465px;
+  margin: auto;
+  text-align: center;
+}
+.activities-text p strong {
+  color: #000;
+  color: var(--ios-status-bar-status-bar-text-color, #000);
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  font-family: 'sequel_sans_heavy_body' !important;
+}
+
+.business-profile {
+  background-image: url("https://memate-website.s3.ap-southeast-2.amazonaws.com/assets/circle.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  width: 100%;
+  position: relative;
+  height: 88%;
+}
+
+img.image-business {
+  max-width: 453px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 45% 49%;
+  z-index: 1;
+  left: 110px;
+  position: relative;
+  bottom: -4px;
+}
+
+img.mask-business {
+  position: absolute;
+  top: 183px;
+  left: 1px;
+}
+
+img.graph-business {
+  position: absolute;
+  top: 111px;
+  right: -1px;
+}
+
+.project-profitability {
+  margin-top: 11px;
+}
+.inner-text p span {
+  color: #FFF;
+  font-size: 40px;
+  font-style: normal;
+  line-height: 140%;
+  letter-spacing: 2px;
+  font-family: 'sequel_sans_black_head' !important;
+  letter-spacing: 0px;
+  font-weight: 300;
+}
+.inner-text p {
+  color: #fff;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 140%;
+  margin: 0px;
+  font-family: "sequel_sans_roman_head" !important;
+}
+.inner-text {
+  background-image: url("https://memate-website.s3.ap-southeast-2.amazonaws.com/assets/content-block.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 157px;
+  position: relative;
+  object-fit: cover;
+  border-radius: 30px;
+}
+.inner-text h2 {
+  color: #fff;
+  font-size: 37px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 167%;
+  margin: 0px;
+  letter-spacing: 1.2px;
+  font-family: "sequel_sans_heavy_body" !important;
+}
+.inner-text-container {
+  height: inherit;
+  width: inherit;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.heading-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.real-time {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  justify-content: space-between;
+  margin-top: 11px;
+}
+
+.gain-time {
+  border-radius: 30px;
+  background: #f7f8fa;
+  padding: 25px;
+  width: 39%;
+  min-height: 419.063px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gain-time p {
+  color: var(--ios-status-bar-status-bar-text-color, #000);
+  font-size: 30px;
+  font-style: normal;
+  text-align: center;
+  line-height: 140%;
+  font-family: "sequel_sans" !important;
+  margin: 0px;
+  max-width: 402px;
+  margin: auto;
+}
+
+.gain-time p span {
+  color: var(--ios-status-bar-status-bar-text-color, #000);
+  text-align: center;
+  font-family: "sequel_sans" !important;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 900;
+  letter-spacing: 1px;
+  line-height: 140%;
+}
+
+.gain-time img {
+  margin-top: 23px;
+  width: 100%;
+}
+
+.overcome-pro p span {
+  color: #000;
+  text-align: center;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 56.2px;
+  letter-spacing: 0px;
+  font-family: 'sequel_sans_roman_head' !important;
+}
+
+.overcome-pro {
+  border-radius: 30px;
+  background: #f7f8fa;
+  padding: 108px 25px;
+  width: 58%;
+  max-width: 58%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 419.063px;
+}
+
+.overcome-pro p {
+  color: var(--ios-status-bar-status-bar-text-color, #000);
+  font-size: 48px;
+  font-style: normal;
+  line-height: 140%;
+  text-align: center;
+  margin: 0px;
+  font-family: 'sequel_sans_heavy_body' !important;
+  font-weight: 100;
+  letter-spacing: 0px;
+}
+
+p.memateMetaLogo svg {
+  position: absolute;
+  top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 120px;
+}
+p.mask-business {
+  position: absolute;
+  top: 130px;
+  z-index: 0;
+}
+p.image-business {
+  position: absolute;
+  z-index: 1;
+  left: 60px;
+}
+p.graph-business {
+  position: absolute;
+  right: 0px;
+  top: 135px;
+}
+@media screen and (max-width: 767px) {
+  .gridboxstreamline.item2 h4,.gridboxstreamline.item1 h4, .gridboxstreamline.item3 h4, .gridboxstreamline.item4 h4 {
+    padding: 18px;
+    font-size: 20px;
+    line-height: 25px;
+}
+  .gridboxstreamline.item2 h4 br,.gridboxstreamline.item1 h4 br, .gridboxstreamline.item3 h4 br, .gridboxstreamline.item4 h4 br {
+   /* display: none; */
+}
+  .common-box-wrapper {
+    margin-top: 30px;
+}
+.challenges-text p {
+    font-size: 20px;
+}
+.gridboxstreamline.item2, .gridboxstreamline.item4 {
+    padding-left: 0;
+    padding-top: 18px;
+}
+.gridboxstreamline.item3, .gridboxstreamline.item1 {
+    padding-right: 0;
+}
+.streamlineimggrid {
+    width: 100%;
+}
+.gridboxstreamline.item1, .gridboxstreamline.item2, .gridboxstreamline.item3, .gridboxstreamline.item4 {
+    width: 100% !important;
+}
+.spanTextMQ{
+  font-size: 22px !important;
+}
+.common-box {
+  width: 100%;
+  height: auto;
+}
+.challenges-text h3 {
+    font-size: 19px;
+    margin-bottom: 15px;
+    line-height: 23px;
+    letter-spacing: 0;
+    font-weight: 100;
+    font-family: 'sequel_sans' !important;
+}
+.gain-time p, .gain-time p span {
+  font-size: 22px;
+}
+.max-cont-width, .overcome-pro-content {
+  width: 100%;
+  max-width: 100%;
+}
+.predict-side {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 100%;
+}
+p.card-text {
+  font-size: 22px;
+  line-height: 23px;
+  padding: 0px 10px;
+}
+.control-text p , .control-text p strong, .inner-text p, .inner-text p strong{
+  font-size: 22px;
+  line-height: 28px;
+}
+.icons {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.project-profitability {
+  margin-top: 20px;
+}
+.inner-text p {
+  text-align: center;
+}
+.me-meta-card, .real-time {
+  display: block;
+}
+.gain-time, .overcome-pro {
+  width: 100%;
+  max-width:100%;
+  min-height: auto;
+}
+.overcome-pro p, .overcome-pro p span {
+  font-size: 22px;
+  line-height: 28px;
+}
+.overcome-pro {
+  margin-top: 20px;
+  padding: 30px 15px;
+}
+.real-time {
+  margin-top: 20px;
+}
+.common-box-wrapper {
+  padding: 0 15px;
+}
+.me-meta-image img {
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.internal-control {
+  padding:30px 12px;
+}
+.activities-text p span, .activities-text p {
+  font-size: 22px;
+}
+.activities-text p span, .activities-text p .strongText {
+  font-size: 22px;
+}
+p.memateMetaLogo svg {
+  position: absolute;
+  top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 85px;
+  max-width: 55%;
+}
+}
+@media screen and (max-width: 992px) and (min-width: 768px){
+  .me-meta-card,.real-time {
+    display: block;
+    gap: 10px;
+}
+.max-cont-width, .predict-side, .overcome-pro {
+  width: 100%;
+  max-width: 100%;
+}
+.gain-time {
+  width: 100%;
+  min-height: auto;
+}
+.internal-control {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.predict-side {
+  margin-bottom: 30px;
+}
+.common-box {
+  width: 100%;
+  height: auto;
+}
+.common-box-wrapper {
+  margin-top: 50px;
+  width: 100%;
+  padding: 0 15px;
+}
+.me-meta-image img {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.inner-text p {
+  text-align: center;
+}
+.overcome-pro {
+  margin-top: 15px;
+}
+}
+@media screen and (max-width: 992px) and (min-width: 768px){
+  .overcome-pro {
+    padding: 30px;
+    width: 100%;
+    max-width: 100%;
+    min-height: auto;
+  }
+  .inner-text-container {
+    padding:30px;
+}
+}
+@media screen and (max-width: 1180px) and (min-width: 1024px){
+.common-box-wrapper {
+  margin-top: 30px;
+  width: 100%;
+  padding: 0 15px;
+}
+p.card-text {
+  font-size: 24px;
+  line-height: 30px;
+}
+}

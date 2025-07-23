@@ -1,0 +1,493 @@
+.home-page-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 55px;
+}
+/* .home-container-wrapper {
+    background: url(https://res.cloudinary.com/dn0jqjad3/image/upload/v1747310672/banner-bg_baxrae.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+        background-position: top;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+} */
+ .home-container-wrapper {
+    background: url(https://memate-website.s3.ap-southeast-2.amazonaws.com/assets/slider/banner-bg_baxrae-min.jpg);
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.marginBottomSpace {
+  margin-bottom: 21px;
+}
+.home-platform {
+    margin-top: 33px;
+}
+.home-platform h1 {
+ font-family: 'sequel_sans' !important;
+  max-width: 741px;
+  margin: auto;
+  color: #29292B;
+  text-align: center;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: -1.44px;
+}
+/* .big-img-macMain {
+  width: 993px;
+  margin: auto;
+} */
+.home-platform h2 {
+ font-family: 'sequel_sans' !important;
+  max-width: 741px;
+  margin: auto;
+  color: #29292B;
+  text-align: center;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px; 
+  letter-spacing: -1.44px;
+}
+.image-wrapper img {
+    width: 100%;
+    object-fit: cover;
+}
+.heding-text-top {
+  padding: 0px 0px 23px 0px;
+}
+
+.heding-text-top .mainHomeTitle {
+  text-align: center;
+  font-size: 220px;
+  font-weight: 425;
+  line-height: 184px;
+  letter-spacing: 1px;
+  font-family: "sequel_sans_bold_disp" !important;
+  font-weight: 700;
+}
+
+.mainHomeTitle {
+  background: linear-gradient(to right, #1ab2ff 10.15%, #ffb258 69%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0px;
+}
+.big-img-mac {
+  position: relative;
+  /* margin-top: 16px; */
+}
+
+.iphone-image {
+    position: absolute;
+    right: 0px;
+    bottom: 29px;
+}
+.create-new-text {
+    bottom: 62px;
+    left: 0px;
+    position: absolute;
+}
+.iphone-image img {
+    width: 213px;
+}
+.dflexbannerbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.metric-item img,
+.create-new-text img {
+  width: 227px;
+  position: relative;
+  left: 30px;
+}
+.create-new-model img {
+  width: 215px;
+}
+.create-new-model img {
+  width: 151px;
+}
+.create-new-model {
+  position: absolute;
+  top: 41%;
+  left: -11%;
+  right: 0;
+  margin: 0 auto;
+}
+.metric-item {
+    bottom: 10px;
+    left: -66px;
+    position: absolute;
+}
+.macBook-image {
+    width: 908px;
+    margin: 0 auto;
+    text-align: center;
+}
+.image-wrapper {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.to-replace-bold-text {
+  margin-top: 0px;
+  text-align: center;
+}
+.how-to-use p {
+    color: #29292B;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 40px;
+    font-family: 'sequel_sans' !important;
+    margin: 0px;
+    color: #29292B;
+}
+.how-to-use {
+    margin-top: 38px;
+}
+.businesses-mode span {
+  color: #757B8A;
+  text-align: center;
+  font-family: "Sequel Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 32px; 
+  letter-spacing: -0.72px;
+  font-family: "sequel_sans_roman_head" !important;
+}
+.dflexbannerbtn .btn-base--black2 {
+    z-index: 10;
+    background-color: white;
+    color: #fff;
+    border-radius: 2rem;
+    flex: none;
+    align-items: stretch;
+    width: 100%;
+    height: 52px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 14px 24px;
+    display: block;
+    position: static;
+    inset: auto 0%;
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+.businesses-mode {
+    margin-top: 11px;
+    /* height: 50.4px !important; */
+    margin-bottom: 30px;
+}
+
+.request-btn {
+  margin-top: 10px !important;
+  cursor: pointer;
+  position: relative;
+}
+.request-btn .btn-base--black {
+  background: #353535;
+  margin-bottom: 9px;
+}
+.request-btn .btn-base--black .text-btn--nav {
+  color: #fff;
+  white-space: nowrap;
+  font-family: "sequel_sans" !important;
+}
+
+.request-btn .text-btn--nav {
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 21.24px;
+  cursor: pointer;
+  outline: none;
+  font-family: "sequel_sans" !important;
+}
+.gradientHeading.header-text {
+    font-size: 72px;
+    line-height: 80px;
+    letter-spacing: -2.16px;
+    font-weight: 420;
+    padding-bottom: 26px;
+    width: 614px;
+    margin: 0 auto;
+}
+.gradiientColor {
+  -webkit-text-fill-color: #0000;
+  background: linear-gradient(90deg, rgb(26, 178, 255) 0%, rgb(101, 178, 201) 45%, rgb(255, 178, 88) 65%, rgb(255, 178, 88) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.children-wrapper .main-page {
+  margin-top: 88px;
+  padding-bottom: 104px;
+}
+
+.children-wrapper {
+  margin-top: 90px !important;
+  padding-bottom: 104px;
+}
+
+.pricing-module_PricingTableWrap__UZyUk
+  .pricing-module_pricingcard__Cwzn5
+  .pricing-module_tophead__IFJ3d
+  .pricing-module_right__8xxut
+  h5 {
+  color: #29292b;
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: "sequel_sans_semi_bold_disp" !important;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 150%;
+}
+
+
+
+@media screen and (max-width: 767px) {
+  .shadowLeftline::before {
+  width: 100% !important;
+    left: 0px !important;
+    top: 132px;
+    z-index: -1;
+}
+.shadowLeftline::before {
+    top: 0px !important;
+}
+.shadowRightline::after {
+    width: 100% !important;
+    right: 0px !important;
+    top: 0 !important;
+}
+.shadowLeftline2::before {
+    width: 100% !important;
+}
+    .gradientHeading {
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .gradientHeading.header-text {
+    width: 100%;
+}
+  .macBook-image {
+    width: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+  .home-platform h1 {
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 1px;
+  }
+  .home-platform h2 {
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 1px;
+  }
+  span.gradientAnimenate {
+    font-size: 35px !important;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .smart-investment-banner {
+    line-height: 51px !important;
+  }
+  .sales-component-feature span {
+    margin-top: 2px !important;
+    line-height: 44px !important;
+  }
+.iphone-image {
+    position: absolute;
+    right: 0;
+    bottom: 5px;
+    width: 23%;
+}
+  .big-img-macMain {
+    width: auto;
+  }
+  .metric-item,
+  .create-new-text,
+  .create-new-text,
+  .create-new-model {
+    display: none;
+  }
+.businesses-mode span {
+    font-size: 20px;
+}
+  .integration-brand-container img,
+  .macBook-image img {
+    width: 100% !important;
+  }
+
+  .home-page-content {
+    padding: 0px 15px;
+  }
+  .home-platform h2 br,
+  .heding-text-top h1 br {
+    display: none;
+  }
+  .heding-text-top .mainHomeTitle {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .heding-text-top {
+    margin-top: 0px;
+  }
+  .heding-text-top {
+    padding: 0;
+  }
+  .how-to-use p {
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 0;
+  }
+  .to-replace-bold-text {
+    margin-bottom: 5px;
+    line-height: 0px;
+  }
+  .sliderTabWrapper .slick-slide {
+    margin: 20px 15px !important;
+  }
+ .businesses-mode {
+    margin-top: 0px;
+    text-align: center;
+    margin-bottom: 0;
+}
+  .image-wrapper svg {
+    height: auto;
+    margin-top: 30px;
+  }
+  .how-to-use {
+    margin-top: 25px;
+  }
+}
+@media screen and (max-width: 767px) {
+.dflexbannerbtn {
+    display: block;
+}
+.dflexbannerbtn.dflexbannerbtnp {
+    display: flex;
+}
+}
+/* For iPad Air 5th Gen (Portrait & Landscape) */
+@media screen and (min-width: 820px) and (max-width: 1640px),
+  screen and (min-height: 1080px) and (max-height: 2360px) {
+  html,
+  body {
+    /* overflow-y: hidden; */
+  }
+  .real-time {
+    gap: 20px;
+    justify-content: space-between;
+    margin-top: 10px;
+    /* padding-bottom: 200px;  */
+    margin-bottom: 50px;
+
+    /* min-height: 600px;     */
+    max-height: 1800px;
+    overflow-y: hidden;
+  }
+  .onboarding-section {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 230px;
+  }
+  .operation-right span {
+    font-size: 146.83px !important;
+  }
+  .efficiency-section {
+    width: 97.5% !important;
+  }
+  .boost-image img {
+    width: 100%;
+    position: relative;
+    bottom: -3px;
+    right: 0px;
+    border-bottom-right-radius: 30px;
+  }
+  .main-operation {
+    width: 98%;
+  }
+
+  .allUpdates {
+    margin-right: 70px !important;
+  }
+  .NewsflexWrap .itemHead {
+    width: 550px !important;
+  }
+  .slider-container {
+    max-width: 100%;
+    padding: 0 0px !important;
+  }
+  .sliderTabWrapper .slick-track {
+    margin-left: 58px !important;
+  }
+  .main-footer {
+    width: 98% !important;
+    max-width: 98% !important;
+    padding: 30px;
+}
+}
+@media screen and (max-width: 992px) and (min-width: 768px) {
+  .heding-text-top .mainHomeTitle {
+    font-size: 68px;
+    line-height: 74px;
+  }
+  .home-platform h1 {
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 1px;
+  }
+  .heding-text-top h1 br {
+    display: none;
+  }
+  .image-wrapper svg {
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+  }
+}
+@media screen and (max-width: 1180px) and (min-width: 1024px) {
+  .heding-text-top h1 br {
+    display: none;
+  }
+  .heding-text-top h1 {
+    font-size: 100px;
+    line-height: 110px;
+  }
+}
+@media screen and (max-width: 1366px) and (min-width: 1180px) {
+  .heding-text-top h1 {
+    font-size: 155px;
+    line-height: 130px;
+  }
+  .home-platform h2 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+}

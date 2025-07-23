@@ -1,0 +1,184 @@
+.automotive-header-wrapper {
+  width: 100%;
+  border-radius: 30px;
+  background: rgb(255,178,88);
+  background: linear-gradient(339deg, rgba(255,178,88,1) 22%, rgba(26,178,255,1) 89%);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-top: -17px;
+  max-width: 1200px;
+  padding: 62px 46px 60px 45px;
+  height: auto;
+  position: relative;
+}
+
+ .autoMotive{
+  position: absolute;
+  width: 454px;
+  height: 454px;
+  right: 50px;
+  margin-top: 30px;
+ }
+
+h1.automotive-top-heading {
+  color: #fff;
+  font-family: 'sequel_sans_semi_bold_disp' !important;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+  letter-spacing: 0px;
+}
+
+.automotive-middle-heading {
+  margin-top: 16px;
+  color: #fff;
+  font-family: "sequel_sans_black_disp", sans-serif !important;
+  /* font-feature-settings: "liga" off, "clig" off; */
+  /* font-family: Inter; */
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 72px;
+  letter-spacing: 0px;
+}
+
+.automotive-heading-content {
+  margin-top: 32px;
+  max-width: 578px;
+  width: 100%;
+  color: #fff;
+  font-family: "sequel_sans_roman_head" !important;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 140%;
+}
+
+.automotive-heading-button {
+  margin-top: 24px;
+  border-radius: 60px;
+  border: 1px solid #fff;
+  color: #fff;
+  background-color: transparent;
+  text-align: center;
+  -webkit-text-strokeWidth: 0.2907530963420868;
+  -webkit-text-stroke-color: #fff;
+  font-family: "sequel_sans";
+  padding: 13px 0px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+  width: 170px;
+}
+
+@media screen and (max-width: 767px) {
+  .automotive-page-parent {
+    width: 100%;
+    padding: 0 15px;
+}
+.automotive-header-wrapper {
+  padding: 35px 22px 60px 25px;
+  max-width: 100%;
+  margin-top: 0;
+  text-align: left;
+}
+.automotive-middle-heading {
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0;
+}
+p.automotive-middle-heading br {
+  display: none;
+}
+.automotive-bussiness-management-wrapper {
+  padding-top: 15px;
+}
+.automotive-heading-content {
+  margin-top: 0;
+}
+.automotive-header-wrapper::before {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: inline-block;
+  opacity: 0;
+}
+.automotive-heading-button {
+  margin-top: 15px;
+}
+.automotive-bussiness-management-heading {
+  font-size: 28px;
+}
+.autoMotive {
+  position: absolute;
+  width: 430px;
+  height: 583px;
+  right: 15px;
+  bottom: 9px;
+  height: auto;
+  width: 132px;
+}
+}
+
+
+.startup-middle-heading {
+    font-family: sequel_sans_heavy_disp, sans-serif !important;
+    font-size: 88px;
+    line-height: 88px;
+    margin-top: 16px;
+}
+
+.startup-middle-heading, h1.startup-top-heading {
+    color: #fff;
+    font-style: normal;
+    font-weight: 100;
+    letter-spacing: 0;
+}
+.startup-middle-heading, h1.startup-top-heading {
+    color: #fff;
+    font-style: normal;
+    font-weight: 100;
+    letter-spacing: 0;
+}
+
+h1.startup-top-heading {
+    font-family: sequel_sans_semi_bold_disp !important;
+    font-size: 32px;
+    line-height: normal;
+}
+.startup-heading-button, .startup-heading-content {
+    color: #fff;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 100;
+}
+.startup-heading-content {
+    font-family: sequel_sans_roman_head !important;
+    line-height: 140%;
+    margin-top: 32px;
+    max-width: 578px;
+    width: 100%;
+}
+.startup-heading-button {
+    -webkit-text-strokeWidth: .2907530963420868;
+    -webkit-text-stroke-color: #fff;
+    background-color: initial;
+    border: 1px solid #fff;
+    border-radius: 60px;
+    font-family: sequel_sans;
+    line-height: normal;
+    margin-top: 24px;
+    padding: 13px 0;
+    text-align: center;
+    width: 170px;
+}
+
+.startup-heading-button, .startup-heading-content {
+    color: #fff;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 100;
+}

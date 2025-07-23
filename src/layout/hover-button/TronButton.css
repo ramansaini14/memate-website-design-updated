@@ -1,0 +1,350 @@
+@keyframes infiniteRotate {
+  0% {
+    transform: rotateZ(0deg);
+  }
+
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
+@keyframes drawStroke {
+  0% {
+    stroke-dasharray: 0, 284.533;
+    stroke-dashoffset: 284.533;
+  }
+
+  100% {
+    stroke-dasharray: 284.533, 0;
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes fadeInOut {
+  0%, 20% {
+    opacity: 1; 
+  }
+  20.1%, 100% {
+    opacity: 0; 
+  }
+}
+.plan-header .request-btn a {
+  position: relative;
+  margin: 0 auto;
+}
+
+/* Main Button Styles */
+/* .nav-btn--get-started {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    overflow: hidden;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    transition: border 0.3s ease-in-out;
+} */
+.navbar-log-in1 .nav-btn--get-started {
+  position: relative;
+}
+
+.tron-hover-rotate.small {
+  background: linear-gradient(to right, #1ab2ff 33.15%, #ffb258 62%);
+  width: 20rem;
+  height: 20rem;
+  inset: auto;
+}
+
+.request-btn a {
+  position: relative;
+  margin-bottom: 5px;
+}
+.request-btnApp a {
+  width: 191px !important;
+  margin: 0 auto !important;
+  display: block !important;
+}
+
+/* .nav-btn--get-started:hover {
+    border-image: linear-gradient(45deg, #EB88B1, #B965E4, #61A6F9) 1;
+  } */
+
+/* Rotating Background Element */
+/* .tron-hover-rotate {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(to bottom, #ffc940, #ff7bad 50%, #569cff);
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    animation: infiniteRotate 4s linear infinite;
+    transform-style: preserve-3d;
+    transition: opacity 0.3s ease-in-out;
+  }
+   */
+
+.tron-hover-rotate {
+
+  width: 15rem;
+  height: 15rem;
+  position: absolute;
+  inset: auto;
+  background-image: linear-gradient(to right, #1ab2ff 33.15%, #ffb258 62%);
+}
+
+.tron-hover-rotate {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  height: 200px;
+  background-image: linear-gradient(to right, #1ab2ff 33.15%, #ffb258 62%);
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  animation: infiniteRotate 4s linear infinite;
+  transform-style: preserve-3d;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.request-btn .btn-base--tron-hover {
+  width: 11.8125rem;
+}
+
+.nav-btn--get-started:hover .tron-hover-rotate {
+  opacity: 1;
+}
+
+/* .request-btn .btn-base--tron-radial {
+  width: 3.8125rem;
+  height: 40px;
+  inset: -1px 0% 0 116px;
+} */
+
+/* .request-btn-transpaent .btn-base--black {
+  color: #fff;
+  white-space: nowrap;
+  cursor: pointer;
+  border-radius: 60px;
+  border: 1px solid var(--Gray-900, #fff);
+  outline: none;
+  background: transparent;
+  color: #fff;
+  text-align: center;
+  -webkit-text-stroke-color: #101828;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 415;
+  line-height: normal;
+  font-family: sequel_sans_roman_head!important;
+  height: 57px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+.request-btn-transpaent .btn-base--black {
+  background: transparent;
+  border: 1px solid #fff;
+}
+.request-btn-center {
+  display: flex;
+  justify-content: center;
+}
+.request-btn-bg {
+  justify-content: flex-start;
+  display: flex;
+}
+.request-btn-transpaent:hover .btn-base--black {
+  background: #353535;
+  border: 1px solid #353535;
+}
+/* SVG Container and Stroke Animation */
+.radial-embed-nav svg {
+  width: 100%;
+  height: auto;
+}
+
+.tron-icon_nav {
+  fill: none;
+  stroke: url(#linear-gradient-tronnav);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 4px;
+  stroke-dasharray: 284.533, 284.533;
+  stroke-dashoffset: 284.533;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.nav-btn--get-started:hover .tron-icon_nav {
+  animation: drawStroke 2s ease infinite;
+}
+
+.nav-btn--get-started:hover .radial-embed-nav svg {
+  margin: -2px 0;
+}
+
+.nav-btn--get-started .tron-icon_nav {
+  animation: drawStroke 2s ease infinite;
+}
+
+.nav-btn--get-started:hover .text-btn--nav {
+  color: #fff;
+  opacity: .9;
+
+}
+
+.radial-embed-nav {
+  border-radius: 48px;
+  flex: none;
+  position: absolute;
+  inset: 0%;
+  /* overflow: hidden; */
+}
+
+.radial-embed-nav svg {
+  width: 100%;
+  height: auto;
+  margin: -1px 0;
+  position: relative;
+  z-index: -9;
+}
+
+
+
+
+/* Text and Button Background */
+.btn-base--black {
+  z-index: 10;
+  background-color: #1d1d1f;
+  color: #fff;
+  border-radius: 2rem;
+  flex: none;
+  align-items: stretch;
+  width: 6.5625rem;
+  height: 52px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 14px 6px;
+  display: block;
+  position: static;
+  inset: auto 0%;
+  position: relative;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.request-btn .btn-base--black {
+  width: 11.5625rem;
+}
+
+.text-btn--nav {
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 415;
+  line-height: normal;
+}
+
+.btn-base--tron-radial {
+  opacity: 1;
+  border-radius: 48px;
+  align-items: flex-start;
+  width: 107%;
+  height: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  position: absolute;
+  inset: -3.3px 0% -8px -3.5px;
+  animation: fadeInOut 4s linear infinite;
+}
+
+.btn-base--tron-hover {
+  z-index: auto;
+  border-radius: 48px;
+  justify-content: center;
+  align-items: center;
+  width: 6.8125rem;
+  height: 2.75rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  position: absolute;
+  inset: -2px 0% 0% -2px;
+  overflow: hidden;
+}
+
+
+/* 
+.nav-btn--get-started {
+    perspective: 2000px;
+    white-space: nowrap;
+    background-color: #0000;
+    border-radius: 48px;
+    flex-direction: column;
+    flex: none;
+    justify-content: center;
+    align-self: stretch;
+    align-items: center;
+    width: auto;
+    height: auto;
+    padding: 0;
+    overflow: visible;
+} */
+
+/* .nav-btn--get-started:hover {
+    background-color: #272729;
+    text-decoration: none
+} */
+
+
+
+
+.btn-base--black:hover {
+  background-color: #353535;
+  border: 1px solid black !important;
+}
+
+.btn-base--tron-hover {
+  z-index: auto;
+  border-radius: 48px;
+  justify-content: center;
+  align-items: center;
+  width: 6.8125rem;
+  height: 56px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  position: absolute;
+  /* inset: -2.3px 0% -8px -2px; */
+  overflow: hidden;
+}
+.nav-btn--get-started:hover .tron-icon_nav {
+  animation: none;
+}
+
+
+.btn-base--tron-radial {
+  opacity: 0;
+  border-radius: 48px;
+  align-items: flex-start;
+  width: 107%;
+  height: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  position: absolute;
+  inset: -3.3px 0% -8px -3.5px;
+  animation: fadeInOut 10s linear infinite;
+}
+
+.btn-base--tron-radial:hover{
+  animation: none;
+}
+.request-btn .get-started-border-box .btn-base--black {
+background: #f7f8fa !important;
+
+}

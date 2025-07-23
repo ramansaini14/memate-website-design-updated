@@ -1,0 +1,136 @@
+.strean-line {
+    border-radius: 30px;
+    background: #F7F8FA;
+}
+.shadowRightline1::after {
+    border-radius: 395.608px;
+    background: rgba(30, 178, 220, 0.33);
+    filter: blur(84.8499984741211px);
+    width: 167.504px;
+    height: 395.608px;
+    flex-shrink: 0;
+    content: "";
+    position: absolute;
+    right: 0px;
+    top: -45px;
+    z-index: -1;
+}
+.shadowLeftline1::before {
+    border-radius: 516.412px;
+    background: rgba(255, 178, 89, 0.44);
+    filter: blur(84.8499984741211px);
+    width: 97.296px;
+    height: 516.412px;
+    flex-shrink: 0;
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+.main-operation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-top: 30px;
+}
+.allinonefeatueWrap a{
+    text-decoration: none;
+}
+.heading-margin {
+    margin-bottom: 70px;
+}
+
+.operation-left {
+    padding: 50px;
+    text-align: left;
+}
+
+.operation-left h2 {
+    color: #29292B;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 415;
+    line-height: normal;
+    letter-spacing: -1px;
+    font-family: 'sequel_sansbook_head' !important;
+    margin: 0px;
+    line-height: 25px;
+}
+
+.operation-left h1 {
+    color: #29292B;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1px;
+    font-family: 'sequel_sansbook_head' !important;
+    margin: 0px;
+    margin-bottom: 40px;
+}
+
+p.all-text {
+    color: #242122;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 410;
+    line-height: 100%;
+    letter-spacing: -0.21px;
+    font-family: 'sequel_sansbook_head' !important;
+    margin-bottom: 50px;
+}
+
+.operation-desp p {
+    color: #888E9E;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 360;
+    line-height: 140%;
+    max-width: 450px;
+    text-align: left;
+    margin-bottom: 48px;
+}
+
+button.get-started-btn {
+    border-radius: 60px;
+    border: 1px solid var(--Gray-900, #101828);
+    outline: none;
+    padding: 14px 36px;
+    background: transparent;
+    color: var(--Gray-900, #101828);
+    text-align: center;
+    -webkit-text-stroke-color: var(--Gray-900, #101828);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 415;
+    line-height: normal;
+    font-family: 'sequel_sansbook_head' !important;
+}
+
+.operation-right h1 {
+    background: linear-gradient(to right, #1AB2FF 33.15%, #FFB258 62%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0px;
+    text-align: center;
+    font-size: 118px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: -1px;
+    font-family: "Inter", sans-serif !important;
+}
+
+.boost-image img {
+    width: 100%;
+}
+@media screen and (max-width: 1024px) {
+.shadowRightline2::after ,.shadowLeftline2::before,.shadowRightline1::after,.shadowLeftline1::before{
+    width: 100%;
+}
+
+
+}

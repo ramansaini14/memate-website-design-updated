@@ -1,0 +1,174 @@
+.industry-header-wrapper {
+  width: 100%;
+  border-radius: 30px;
+  background: rgb(255,178,88);
+  background: linear-gradient(339deg, rgba(255,178,88,1) 22%, rgba(26,178,255,1) 89%);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-top: -17px;
+  max-width: 1200px;
+  padding: 62px 46px 69.5px 45px;
+  height: auto;
+  position: relative;
+}
+/* .industry-header-wrapper::before {
+  background: url('https://memate-website.s3.ap-southeast-2.amazonaws.com/assets/creative-agencies-img-man.png');
+  background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    content: "";
+    width: 339px;
+    height: 583px;
+    right: 78px;
+    bottom: 0;
+} */
+ .motivationImage{
+  position: absolute;
+  width: 430px;
+  height: 583px;
+  right: 78px;
+  bottom: 0;
+ }
+
+h1.industry-top-heading {
+  color: #fff;
+  font-family: 'sequel_sans_semi_bold_disp' !important;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+  letter-spacing: 0px;
+}
+
+.industry-middle-heading {
+  margin-top: 16px;
+  color: #fff;
+  font-family: "sequel_sans_black_disp", sans-serif !important;
+  /* font-feature-settings: "liga" off, "clig" off; */
+  /* font-family: Inter; */
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 72px;
+  letter-spacing: 0px;
+}
+.industry-heading-content {
+  margin-top: 32px;
+  max-width: 578px;
+  width: 100%;
+  color: #fff;
+  font-family: "sequel_sans_roman_head" !important;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 140%;
+}
+
+.industry-heading-button {
+  margin-top: 24px;
+  border-radius: 60px;
+  border: 1px solid #fff;
+  color: #fff;
+  background-color: transparent;
+  text-align: center;
+  -webkit-text-strokeWidth: 0.2907530963420868;
+  -webkit-text-stroke-color: #fff;
+  font-family: "sequel_sans";
+  padding: 13px 0px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+  width: 170px;
+}
+@media screen and (max-width: 767px) {
+  .industry-page-parent {
+    width: 100%;
+    padding: 0 15px;
+}
+.industry-heading-button {
+  padding: 14px 0px;
+}
+h1.industry-top-heading {
+  font-size: 28px;
+}
+.industry-header-wrapper {
+  padding: 32px 33px 43px 18px;
+  max-width: 100%;
+  margin-top: 0;
+  /* text-align: center; */
+  text-align: left;
+}
+.industry-middle-heading {
+    font-size: 24px;
+    line-height: 44px;
+    letter-spacing: 0;
+    font-family: "sequel_sans" !important;
+}
+p.industry-middle-heading br {
+  display: none;
+}
+.industry-bussiness-management-wrapper {
+  padding-top: 15px;
+}
+.industry-heading-content {
+  margin-top: 0;
+  max-width: 100%;
+}
+.industry-header-wrapper::before {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: inline-block;
+  opacity: 0;
+}
+.industry-heading-button {
+  margin-top: 15px;
+}
+.industry-bussiness-management-heading {
+  font-size: 28px;
+}
+.industry-bussiness-sub-content-description {
+  color: #29292b;
+  font-family: 'sequel_sans_roman_head' !important;
+  font-size: 30px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 110%;
+  letter-spacing: 0px;
+  /* white-space: nowrap; */
+}
+.motivationImage {
+  position: absolute;
+  width: 430px;
+  height: 583px;
+  right: -2px;
+  bottom: 0;
+  height: auto;
+  width: 133px;
+}
+.industry-bussiness-sub-content-description {
+  color: #29292b;
+  font-family: 'sequel_sans_roman_head' !important;
+  font-size: 30px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 110%;
+  letter-spacing: 0px;
+  white-space: wrap !important;
+}
+.industry-crousel-heading {
+  color: #101828;
+  text-align: center;
+  font-family: "sequel_sans_medium_head" !important;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 44px;
+  letter-spacing: -1px;
+  white-space: wrap !important;
+}
+}

@@ -1,0 +1,16 @@
+.suitable-tender-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 90px;
+    margin-bottom: 93.1px;
+    position: relative;
+}
+.suitable-table-image-wrapper{
+    position: relative;
+}
+.suitable-image-menu-wrapper{
+    position: absolute;
+    top:23%;
+    right: 40%;
+}

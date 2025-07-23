@@ -1,0 +1,72 @@
+.ButtonSkeliton{
+    z-index: 10;
+    background-color: white;
+    color: #fff;
+    border-radius: 2rem;
+    flex: none;
+    align-items: stretch;
+    /* width: 185% !important; */
+    height: 64px;
+    margin-left: auto;
+    margin-right: 0;
+    padding: 14px 44px;
+    display: block;
+    position: static;
+    inset: auto 0%;
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    /* width: 166%; */
+}
+
+.PricingButton a {
+    position: relative;
+    margin-bottom: 5px;
+    width: 166%;
+}
+
+.PricingMainContainer {
+    width: 127.5%;
+    height: 5.75rem;
+    display: block;
+    position: absolute;
+    inset: -5px 0% 0% -25px;
+    /* animation: fadeInOut 4s linear infinite; */
+    opacity: 0;
+    border-radius: 48px;
+    align-items: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+    /* inset: -3.3px 0% -8px -3.5px; */
+    animation: fadeInOut 10s linear infinite;
+}
+
+.PricingHover {
+    z-index: auto;
+    border-radius: 48px;
+    justify-content: center;
+    align-items: center;
+    width: 6.8125rem;
+    height: 68px;
+    width: 101.5% !important;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    position: absolute;
+    inset: -2px 0% 0% -2.5px;
+    overflow: hidden;
+}
+
+.PricingText{
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    font-family: 'sequel_sans' !important;
+    white-space: nowrap;
+}

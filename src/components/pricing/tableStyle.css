@@ -1,0 +1,41 @@
+.smart-investment-headingF {
+    color: #29292B;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 415;
+    line-height: 60px;
+    letter-spacing: -1.44px;
+    font-family: 'sequel_sans' !important;
+}
+.smart-investment-bannerF {
+    margin-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-family: 'sequel_sans_semi_bold_disp' !important;
+    text-align: center;
+    font-size: 144px;
+    font-style: normal;
+    font-weight: 420;
+    line-height: 124px;
+    letter-spacing: -2.16px;
+}
+.smart-investment-descriptionF span {
+    color: #888E9E;
+    text-align: center;
+   font-family: 'sequel_sans_roman_head' !important;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 360;
+    line-height: 32px;
+    letter-spacing: -0.72px;
+}
+.smart-investment-descriptionF {
+    margin-top: 41px;
+}
+.dflexbannerbtnFT {
+    margin: 8px 0 40px;
+}
+.pricingHeadWrapF {
+    text-align: center;
+}

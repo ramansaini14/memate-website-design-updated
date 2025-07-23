@@ -1,0 +1,105 @@
+.industry-crousel-wrapper {
+  margin-top: 112px;
+  max-width: 1280px;
+  border-radius: 30px;
+  background: #f7f8fa;
+  padding: 64px 88px;
+  /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); */
+  margin-bottom: 56px;
+}
+
+.industry-crousel-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.industry-crousel-heading {
+  color: #101828;
+  text-align: center;
+  font-family: "sequel_sans_medium_head" !important;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: -0.72px;
+}
+
+.industry-crousel-body-content {
+  margin-top: 32px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+}
+
+.industry-circle-logo {
+  width: 70px;
+  height: 70px;
+  flex-shrink: 0;
+  background-image: url("https://memate-website.s3.ap-southeast-2.amazonaws.com/assets/industry-crosuel-circel.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.industry-circle-logo span {
+  color: #fff;
+  font-family: "sequel_sans_bold_disp" !important;
+  font-size: 27.077px;
+  font-style: normal;
+  font-weight: 425;
+  line-height: normal;
+}
+
+.industry-crousel-1-heading {
+  margin-top: 16px;
+  color: #101828;
+  text-align: center;
+  font-family: "sequel_sans_heavy_body" !important;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 370;
+  line-height: 28px;
+}
+
+.industry-crousel-1-sub-heading {
+  color: #475467;
+  text-align: center;
+  font-family: "sequel_sans_roman_head" !important;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 365;
+  line-height: 24px;
+}
+
+.industry-crousel-star-rating {
+  display: flex;
+  gap: 1px;
+  margin-top: 16px;
+}
+
+.crousel-indication {
+  margin-top: 40px;
+  display: flex;
+    gap: 16px;
+}
+
+.crousel-selected-page {
+  height: 10px;
+  width: 10px;
+  background-image: url("https://memate-website.s3.ap-southeast-2.amazonaws.com/assets/industry-crosuel-circel.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+}
+
+.crousel-non-selected-page{
+    width: 10px;
+height: 10px;
+background-color: #EAECF0;
+border-radius: 50%;
+}

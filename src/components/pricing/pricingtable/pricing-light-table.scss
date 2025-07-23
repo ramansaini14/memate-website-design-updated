@@ -1,0 +1,319 @@
+.pricing-table-container {
+  max-width: 1240px;
+    margin: 0 auto;
+    padding: 0px;
+    font-family: sequel_sans_roman_head!important;
+  }
+  table.pricingtableWrapper th, table.pricingtableWrapper td {
+    max-width: 304px !important;
+}
+  #request-btn-pricing .btn-base--black {
+    background: #fff;
+}
+#request-btn-pricing {
+  justify-content: center;
+}
+
+  
+  .pricingtableWrapper {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    margin-top: 40px;
+   
+    thead {
+      position: sticky;
+      top: 0;
+      z-index: 10; 
+      tr {
+        
+        th {
+          background-color: #ffff;
+          padding: 20px;
+          border: 0px solid #ddd;
+          vertical-align: top;
+          .iconbox {
+            border-radius: 15.484px;
+            background: #EFF0F6;
+            display: flex;
+            width: 56px;
+            height: 56px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: var(--spacing-md, 8px);
+            opacity: 0;
+        }
+          .plan-header {
+            position: relative;
+            background-color: #fff;
+            padding: 20px 0;
+            border-radius: 8px;
+            .getstartedBtnPricing{
+              cursor: pointer;
+              position: relative;
+              width: 100%;
+              height: 48.08px;
+              flex-shrink: 0;
+              border-radius: 60px;
+              background-color: transparent !important;
+              z-index: 1;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              color: #29292B;
+              margin: 21px auto 0;
+              &::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                border-radius: 60px;
+                padding: 3px;
+                background: linear-gradient(#24B3F8, #FFB258);
+                mask: linear-gradient(#fff 0 0) content-box, 
+                    linear-gradient(#fff 0 0);
+                mask-composite: exclude;
+                -webkit-mask-composite: destination-out;
+                z-index: -1;
+            }
+          }
+            .flexbox {
+              display: flex;
+              justify-content: space-between;
+              align-items: self-start;
+          }
+  
+            h3 {
+              text-align: left;
+              font-family: "sequel_sans_semi_bold_head" !important;
+              color: #29292B;
+              font-size: 24px;
+              font-style: normal;
+              font-weight: 370;
+              line-height: 32px; 
+              letter-spacing: -0.72px;
+              padding-bottom: 10px;
+              padding-top: 10px;
+            }
+  
+            h2 {
+              text-align: left;
+              white-space: nowrap;
+              color: #29292B;
+              font-size: 56px;
+              font-style: normal;
+              font-weight: 420;
+              line-height: 63.873px;
+              font-family: "sequel_sans_semi_bold_disp" !important;
+              text-align: left;
+              margin: 24px 0 8px;
+  
+              span {
+               color: #888E9E;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 100;
+                line-height: 21.291px;
+                font-family: "sequel_sans_roman_head" !important;
+              }
+            }
+  
+            p {
+              text-align: left;
+              min-height: 48px;
+              font-family: "sequel_sans_light_obl_head" !important;
+              color: #888E9E;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 357;
+              line-height: 20px;
+              letter-spacing: -0.38px;
+              margin-bottom: 28px;
+
+            }
+          
+            // a {
+            //   border-radius: 60px;
+            //   background: #29292B;
+            //   color: #FFF;
+            //   text-align: center;
+            //   leading-trim: both;
+            //   text-edge: cap;
+            //   font-size: 18px;
+            //   font-style: normal;
+            //   font-weight: 415;
+            //   line-height: normal;
+            //   text-decoration: none;
+            //   padding: 14px 58px;
+            //   margin-top: 21px;
+            //   display: inline-block;
+            //   width: 100%;
+            // }
+           
+            .badge {
+              border-radius: 9.678px;
+            background: radial-gradient(2006.76% 120.68% at -6.2% 4.87%, #1AB2FF 0.15%, #FFB258 100%);
+            color: #FFF;
+            text-align: center;
+            font-feature-settings: 'liga' off, 'clig' off;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 365;
+            line-height: 13.549px; 
+            padding: 10px 11px;
+            }
+          }
+  
+          &.imp-plan .plan-header {
+            // border: 2px solid #00f;
+            // background-color: #e6f7ff;
+            h2{
+              strong{
+                background: linear-gradient(to right, #1ab2ff 33.15%, #ffb258 62%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            }
+            span{
+              color: #888E9E;
+              font-feature-settings: 'liga' off, 'clig' off;
+              font-family: "Sequel Sans";
+              font-size: 18px;
+              font-style: normal;
+              font-weight: 360;
+              line-height: 21.291px; 
+            }
+          }
+        }
+      }
+    }
+  
+    tbody {
+   
+      tr {
+        &:nth-child(odd) {
+          background: var(--Gray-50, #F9FAFB);
+      }
+        td {
+          padding: 15px;
+          border: 0px solid #ddd;
+          font-size: 1rem;
+          sup{
+            margin: 0px 3px;
+            position: relative;
+            top: 10px;
+          }
+  
+          &:first-child {
+            text-align: left;
+            padding-left: 20px !important;
+            white-space: nowrap;
+            font-family: "sequel_sansbook_head" !important;
+            color: var(--Gray-900, #101828);
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 355;
+            line-height: 20px;
+            letter-spacing: -0.38px;
+          }
+  
+          &:not(:first-child) {
+            font-size: 1.2rem;
+          }
+  
+          &.included {
+            color: green;
+          }
+  
+          &.not-included {
+            color: red;
+          }
+        }
+      }
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .pricing-table-container {
+      padding: 10px;
+    }
+  
+    .pricing-table {
+      thead {
+        tr {
+          th {
+            .plan-header {
+              h2 {
+                font-size: 2rem;
+              }
+  
+              p {
+                font-size: 0.9rem;
+              }
+  
+              button {
+                font-size: 0.9rem;
+                padding: 8px 15px;
+              }
+            }
+          }
+        }
+      }
+  
+      tbody {
+        tr {
+          td {
+            padding: 10px;
+          }
+        }
+      }
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .pricing-table-container {
+      width: 100% !important;
+      overflow-x: auto !important;
+      padding: 0 15px;
+      max-width: 100%;
+  }
+  .plan-header h2{
+    font-size: 30px !important;
+    line-height: 36px !important;
+  }
+ .plan-header a {
+    font-size: 16px !important;
+    padding: 14px 20px !important;
+}
+.pricingtableWrapper thead tr th {
+  padding: 5px !important;
+}
+  }
+  @media screen and (max-width: 992px) and (min-width: 768px){
+    .pricing-table-container {
+      width: 100% !important;
+      overflow-x: auto !important;
+      padding: 0 15px;
+      max-width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 1180px) and (min-width: 1024px){
+    .pricing-table-container {
+      width: 100% !important;
+      overflow-x: auto !important;
+      padding: 0 15px;
+      max-width: 100%;
+    }
+    .pricingtableWrapper thead tr th .plan-header h2 {
+      font-size: 34px !important;
+      line-height: 40px !important;
+  }
+  .pricingtableWrapper thead tr th .plan-header a {
+    padding: 14px 40px !important;
+    margin-top:20px !important;
+}
+  }

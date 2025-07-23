@@ -1,0 +1,9 @@
+.weightAndFamily{
+    font-family: 'sequel_sans_bold_disp' !important;
+}
+
+@media screen and (max-width: 767px) {
+    div#aboutPage {
+        padding: 0 15px;
+    }
+}

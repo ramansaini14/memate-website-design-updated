@@ -1,0 +1,151 @@
+.electronic-header-wrapper {
+  width: 100%;
+  border-radius: 30px;
+  background: rgb(255,178,88);
+  background: linear-gradient(339deg, rgba(255,178,88,1) 22%, rgba(26,178,255,1) 89%);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-top: -17px;
+  max-width: 1200px;
+  padding: 62px 46px 69.5px 45px;
+  height: auto;
+  position: relative;
+}
+/* .electronic-header-wrapper::before {
+  background: url('https://memate-website.s3.ap-southeast-2.amazonaws.com/assets/electronic-img.png');
+  background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    content: "";
+    width: 339px;
+    height: 583px;
+    right: 78px;
+    bottom: 0;
+} */
+ .electronicImage{
+  position: absolute;
+  width: 590px;
+  height: 583px;
+  right: 78px;
+  bottom: 0;
+ }
+
+h1.electronic-top-heading {
+  color: #fff;
+  font-family: 'sequel_sans_semi_bold_disp' !important;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+  letter-spacing: 0px;
+}
+
+.electronic-middle-heading {
+  margin-top: 7px;
+  color: #fff;
+  font-family: "sequel_sans_heavy_disp", sans-serif !important;
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: Inter;
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 72px; 
+  letter-spacing: 0px;
+}
+
+.electronic-heading-content {
+  margin-top: 23px;
+  max-width: 578px;
+  width: 100%;
+  color: #fff;
+  font-family: "sequel_sans_roman_head" !important;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 140%;
+}
+
+.electronic-heading-button {
+  margin-top: 24px;
+  border-radius: 60px;
+  border: 1px solid #fff;
+  color: #fff;
+  background-color: transparent;
+  text-align: center;
+  -webkit-text-strokeWidth: 0.2907530963420868;
+  -webkit-text-stroke-color: #fff;
+  font-family: "sequel_sans";
+  padding: 0px 0px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+  width: 170px;
+  height: 53px;
+}
+.industry-bussinees-content-wd {
+  max-width: 1030px !important;
+  padding-bottom: 20px !important;
+}
+@media screen and (max-width: 767px) {
+  .electronic-page-parent {
+    width: 100%;
+    padding: 0 15px;
+}
+.electronic-header-wrapper {
+  padding: 32px 33px 43px 18px;
+  max-width: 100%;
+  margin-top: 0;
+  text-align: center;
+  text-align: left;
+}
+.electronic-middle-heading {
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0;
+}
+p.electronic-middle-heading br {
+  display: none;
+}
+.electronic-bussiness-management-wrapper {
+  padding-top: 15px;
+}
+.electronic-heading-content {
+  margin-top: 0;
+}
+.electronic-header-wrapper::before {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: inline-block;
+  opacity: 0;
+}
+.electronic-heading-button {
+  margin-top: 15px;
+}
+.electronic-bussiness-management-heading {
+  font-size: 28px;
+}
+.electronicImage{
+  position: absolute;
+  width: 430px;
+  height: 583px;
+  right: -2px;
+  bottom: 0;
+  height: auto;
+  width: 140px;
+}
+/* .financial_bgContentWrap__Wo16C .financial_flexImageBox__HDMxN .financial_spaceImgTop__Uodmh {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+} */
+.industry-bussinees-content-wd {
+  max-width: 1030px !important;
+  padding-bottom: 0px !important;
+}
+.industry-bussiness-management-heading {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+}

@@ -1,0 +1,27 @@
+.gradientHeading {
+     font-family: 'sequel_sans_semi_bold_disp' !important;
+    font-size: 194px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 178px;
+    text-align: center;
+}
+.gradiientColor{
+    -webkit-text-fill-color: #0000;
+    background: linear-gradient(90deg, #1ab2ff 10.15%, #ffb258 69%);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+@media screen and (max-width: 767px) {
+    .gradientHeading {
+        font-size: 32px;
+        line-height: 32px;
+    }
+    .gradientHeading.header-text {
+        font-size: 42px;
+        letter-spacing: 1px;
+        line-height: 44px;
+        font-weight: 100;
+    }
+}

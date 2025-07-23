@@ -1,0 +1,91 @@
+.kb-main-section {
+    position: relative;
+    /* padding-top: 364px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pageBreadcrumbs ul li:first-child a {
+    list-style: none;
+    color: #667085;
+    color: var(--Gray-500, #667085);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 310;
+    line-height: 20px;
+    white-space: nowrap;
+}
+.kb-main-section .kb-main-heading {
+    text-align: center;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: "sequel_sans_bold_disp";
+    font-size: 220px;
+    font-style: normal;
+    font-weight: 425;
+    line-height: 164px;
+    letter-spacing: 1px;
+    padding-top: 192.2px;
+    padding-bottom: 142px;
+}
+
+.kb-main-section .kb-main-heading {
+    background: linear-gradient(to right, #1ab2ff 10.15%, #ffb258 69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.kb-main-section .kb-main-image {
+    position: absolute;
+    top: -95px;
+    left: 50%;
+    transform: translateX(-80%);
+}
+.h1tagsseo2{
+    font-family: 'sequel_sans_semi_bold_disp' !important;
+    letter-spacing: -1px;
+    font-size: 42px;
+}
+.privacyHeading{
+    font-family: 'sequel_sans_bold_disp' !important;
+    font-size: 120px;
+    padding-bottom: 15px;
+}
+@media screen and (max-width: 767px) {
+    .kb-main-section .kb-main-heading {
+        font-size:32px;
+        line-height: 40px;
+    }
+    .privacyHeading {
+    font-size: 60px;
+}
+    .KnowledgeBaseMain img {
+        width: 347.37px;
+    }
+    .kb-main-heading br {
+        display: none;
+    }
+    .kb-main-section {
+        padding: 0 15px;
+      }
+}
+@media screen and (max-width: 992px) and (min-width: 768px){
+    .kb-main-section .kb-main-heading {
+        font-size: 140px;
+        line-height: 146px;
+        padding-bottom: 50px;
+    }
+    .kb-main-section .kb-main-image {
+        transform: translateX(-50%);
+    }
+}
+
+@media screen and (max-width: 1180px) and (min-width: 1024px){
+    .kb-main-section .kb-main-heading {
+        font-size: 170px;
+        line-height: 176px;
+        padding-bottom: 50px;
+    }
+    .kb-main-section .kb-main-image {
+        transform: translateX(-74%);
+    }
+}

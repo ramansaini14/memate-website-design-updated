@@ -1,0 +1,39 @@
+.more-specific-card {
+  height: auto;
+}
+
+.more-specific-card-logo {
+  width: 86.611px;
+  margin: auto;
+  height: 86.611px;
+  flex-shrink: 0;
+  border-radius: 13.93px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.more-specific-card-heading {
+  color: #29292b;
+  text-align: center;
+  width: 327px;
+  font-family: sequel_sans_roman_head!important;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 420;
+  line-height: normal;
+  margin-top: 26.69px;
+}
+
+.more-specific-card-description {
+  color: #757b8a;
+  text-align: center;
+  font-family: "sequel_sans_roman_head" !important;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 360;
+  line-height: 140%;
+  width: 327px;
+  height: auto;
+  margin-top: 25px;
+}

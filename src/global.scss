@@ -1,0 +1,106 @@
+@media screen and (max-width: 767px) {
+
+    .bgContentWrap{
+        &.flexboxWrap{
+            display: block;
+           padding: 38px 23px;
+           text-align: center;
+        }
+        .flexImageBox{
+            width: 100%;
+           img{
+            width: 100%;
+            &.last{
+                margin-left: -108px;
+            }
+           }
+        }
+        .flexContentWrap{
+            &.spacingRight{
+                width: 100%;
+                padding-right: 0;
+                margin-top: 35px;
+            }
+            &.spacingLeft{
+                width: 100%;
+                padding-right: 0;
+                padding-left: 0px;
+            }
+           
+           
+            h4{
+                color: #FFF;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 100;
+                line-height: 100%; 
+            }
+            h3{
+                color: #FFF;
+                font-size: 30px;
+                font-style: normal;
+                font-weight: 415;
+                line-height: normal;
+            }
+            h2{
+                font-size: 24px;
+                line-height: 39px;
+                margin-bottom: 16px;
+            }
+            .electronic-heading-button {
+                padding: 14px 0px;
+            }
+            a{
+                color: #FFF;
+                text-align: center;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+                height: 44px;
+                padding: 10px 18px;
+                border-radius: 44px;
+                border: 1px solid #FFF;
+                text-decoration: none;
+                margin-top: 40px;
+                display: inline-block;
+            }
+            p{
+                color: #FFF;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: 140%;
+            }
+        }
+       
+        
+        
+        
+    }
+
+    .industry-page-parent h4 {
+        font-size: 24px;
+      
+    }
+    .industry-page-parent a {
+        margin-bottom: 30px;
+    }
+    .tailore_bgContentWrap__7nRus .tailore_flexContentWrap__a4Jot.tailore_spacingRight__3tGWO {
+        margin-top: 0;
+    }
+    .industry-page-parent h3{
+        font-size: 30px;
+    }
+    .industry-page-parent h2{
+        font-size: 24px;
+        line-height: 39px;
+        margin-bottom: 16px;
+    }
+    .industry-page-parent .electronic-heading-button {
+        padding: 14px 0px;
+    }
+    .industry-page-parent h1 {
+        font-size: 30px;
+    } 
+}

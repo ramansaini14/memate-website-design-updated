@@ -1,0 +1,118 @@
+.first-about {
+  width: 199px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* padding-top: 27px;
+  padding-left: 15px; */
+  padding: 15px;
+  padding-top: 17px;
+  height: 261px;
+  background-image: url("https://memate-website.s3.ap-southeast-2.amazonaws.com/assets/about-1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.second-about {
+  width: 199px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px;
+  padding-top: 17px;
+  height: 261px;
+  background-image: url("https://memate-website.s3.ap-southeast-2.amazonaws.com/assets/about-2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.third-about {
+    width: 199px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 17px;
+    height: 261px;
+    background:  #F7F8FA;
+    border-radius: 30px;
+}
+
+.about-top-heading {
+  color: #fff;
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: sequel_sans_roman_head!important;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 420;
+}
+
+.about-top-heading-third {
+    color: #29292B;
+    font-feature-settings: "liga" off, "clig" off;
+    font-family: sequel_sans_roman_head!important;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 420;
+  }
+
+.about-sub-heading {
+  color: #fff;
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: sequel_sans_roman_head!important;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 420;
+}
+
+.about-sub-heading-third {
+    color: #29292B;;
+    font-feature-settings: "liga" off, "clig" off;
+    font-family: sequel_sans_roman_head!important;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 420;
+  }
+
+.about-1-button {
+  /* margin-top: 117px; */
+
+  width: 168px;
+  height: 42px;
+
+  flex-shrink: 0;
+  background: transparent;
+  border-radius: 60px;
+  border: 1px solid #ffffff;
+  color: #fff;
+
+  text-align: center;
+  font-family: sequel_sans_roman_head!important;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 415;
+  line-height: normal;
+  /* margin-bottom: 15px; */
+}
+
+.about-1-button-third {
+  cursor: pointer;
+    /* margin-top: 117px; */
+    width: 168px;
+    height: 42px;
+
+    flex-shrink: 0;
+    background: transparent;
+    border-radius: 60px;
+    border: 1px solid #29292B;
+    /* padding: 15px 0px; */
+    color: #29292B;;
+    text-align: center;
+    font-family: sequel_sans_roman_head!important;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 415;
+    line-height: normal;
+  }

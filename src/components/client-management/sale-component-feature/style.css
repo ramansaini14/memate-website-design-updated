@@ -1,0 +1,65 @@
+.sales-component-feature-wrapperF {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 70px;
+  flex-direction: column;
+}
+
+.sales-component-featureF h2 {
+ color: #29292B;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 370;
+  line-height: 32px;
+  letter-spacing: -0.72px;
+  font-family: 'sequel_sans_semi_bold_head' !important;
+}
+.sales-component-featureF span {
+    padding-right: 10px;
+    text-align: center;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 420;
+    line-height: 80px;
+    letter-spacing: -2.16px;
+    font-family: 'sequel_sans_semi_bold_disp' !important;
+}
+
+@media screen and (max-width: 767px) {
+  .suitable-tender-wrapper {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+    flex-direction: column-reverse;
+}
+}
+@media screen and (max-width: 992px) and (min-width: 768px){
+  .sales-component-feature-wrapper {
+    margin-top: 15px;
+    padding: 0 15px;
+    flex-direction: column-reverse;
+}
+  .sales-component-feature h1 {
+    margin-top: 15px;
+    font-size: 70px;
+    line-height: 80px;
+    letter-spacing: 0;
+    padding-right: 0;
+}
+.sales-feature-wrapper {
+  margin-top: 15px;
+  max-width: 100%;
+}
+
+}
+
+@media screen and (max-width: 1180px) and (min-width: 1024px){
+  .sales-feature-wrapper {
+    margin-top: 50px;
+    max-width: 100%;
+    padding: 0 15px;
+}
+}
+

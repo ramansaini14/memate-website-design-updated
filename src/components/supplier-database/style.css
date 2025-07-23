@@ -1,0 +1,204 @@
+.main-section {
+    position: relative;
+    padding-top: 215px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-section .main-heading {
+    text-align: center;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: 'sequel_sans_bold_disp' !important;
+    font-size: 220px;
+    font-style: normal;
+    line-height: 83%;
+    font-weight: 100;
+    letter-spacing: 1px;
+    /* margin-bottom: 110px; */
+}
+.darkButtonstyleEdit {
+  position: relative;
+}
+.pageBreadcrumbs {
+  padding: 0 40px;
+  text-align: left;
+  width: 100%;
+}
+.pageBreadcrumbs ul li i {
+  color: #106b99;
+  font-style: normal;
+}
+.pageBreadcrumbs ul li i {
+  color: #106b99;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 600;
+}
+.main-heading.main-headingdatabase {
+  line-height: 200px;
+}
+.MuiAccordionSummary-content{
+    justify-content: space-between;
+    width: 100%;
+}
+.main-section .main-heading {
+  background: linear-gradient(to right, #1ab2ff 33.15%, #ffb258 62%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.main-section .main-image {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* src/CustomUpload.css */
+
+.upload-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 97%;
+    border-radius: var(--radius-xs, 4px);
+    border: 1px solid var(--Gray-200, #EAECF0);
+    background: var(--Base-White, #FFF);
+        cursor: pointer;
+        text-align: center;
+        padding: var(--spacing-xl, 16px) var(--spacing-3xl, 24px);
+        margin: 0 auto 24px;
+    
+}
+.upload-container .upload-button {
+    background: transparent;
+    border: 0;
+    color: var(--Gray-600, #475467);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 315;
+    line-height: 20px;
+    margin-top: 10px;
+}
+.upload-container .upload-button p strong {
+    color: var(--Primary-700, #106B99);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 20px; 
+    font-family: 'sequel_sans_semi_bold_body' !important;
+}
+
+.darkButtonstyle a {
+  border-radius: 60px;
+  background: #29292B;
+  padding: 20px 20px;
+  flex-shrink: 0;
+  /* width: 235.938px; */
+height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 40px;
+  color: #FFF;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 415;
+  line-height: normal;
+  text-decoration: none;
+}
+  .file-input {
+    display: none;
+  }
+  
+  .preview-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+.requestEditBut .text-btn--nav2 {
+    padding: 0 19px;
+}
+  .uploadEditWrap .upload-containerWrapper img{
+     width: 132px !important;
+    height: 41px !important;
+    margin-bottom: 10px;
+    object-fit: contain;
+    }
+  .phoneInput.phoneInputFU.PhoneInput {
+    margin-top: 0;
+}
+.pageBreadcrumbs ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .pageBreadcrumbs ul li {
+    list-style: none;
+    padding: 0 17px;
+    color: var(--Gray-500, #667085);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 20px;
+  }
+  img.search_logo {
+    width: 20px;
+}
+.supplierText{
+  font-size: 42px;
+  font-family: 'sequel_sans_semi_bold_disp' !important;
+  margin-top: 30px;
+}
+.supdatabaseHeadFS {
+    width: 869px;
+    margin: 110px auto 0;
+    color: #29292B;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 415;
+    line-height: 60px;
+    letter-spacing: -1.44px;
+    font-family: 'sequel_sans' !important;
+}
+.dragAndDropText{
+  font-size: 14px;
+  font-family: 'sequel_sans_medium_body' !important;
+}
+  @media screen and (max-width: 767px) {
+    .supdatabaseHeadFS {
+      width: 100%;
+      margin: 9px auto 7px;
+      font-size: 48px;
+      line-height: 30px;
+      letter-spacing: 0;
+    }
+
+    .main-section .main-heading {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .main-section .main-image {
+    width: 44%;
+}
+    .main-section .main-heading br {
+        display: none;
+    }
+  }
+
+  @media screen and (max-width: 992px) and (min-width: 768px){
+    .main-section .main-heading {
+        font-size: 150px;
+    }
+  }
+  
+  @media screen and (max-width: 1180px) and (min-width: 1024px){
+  
+  }

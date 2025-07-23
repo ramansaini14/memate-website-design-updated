@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- <title>Business Management Software, ERP system, CRM & Project Management in One</title> -->
+    <!-- <meta name="description" content="All-in-one business management software and ERP software for Australian SMEs, with built-in CRM and project management tools."/> -->
+    <meta name="theme-color" content="#000000" />
+    <meta name="msvalidate.01" content="2B695D648C28EFB5F1925AACCC8043B3" />
+    <meta name="google-site-verification" content="-21MMiNg4HsiFdG-kiteNfjPiSWjpEzqgep8REsCJus"/>
+
+    <!-- Favicon -->
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+    <link rel="icon" type="image/png" href="%PUBLIC_URL%/favicon.png" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/favicon.png" />
+    <link rel="manifest" href="manifest.json" />
+
+    <!-- Google Analytics (deferred via idle) -->
+    <script>
+      requestIdleCallback(() => {
+        const ga = document.createElement("script");
+        ga.src = "https://www.googletagmanager.com/gtag/js?id=G-GTVNNDD15Z";
+        ga.async = true;
+        document.head.appendChild(ga);
+
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+          dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+        gtag("config", "G-GTVNNDD15Z");
+      });
+    </script>
+
+    <!-- Google Tag Manager (deferred via idle) -->
+    <script>
+      requestIdleCallback(() => {
+        (function (w, d, s, l, i) {
+          w[l] = w[l] || [];
+          w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+          var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s),
+            dl = l != "dataLayer" ? "&l=" + l : "";
+          j.async = true;
+          j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+          f.parentNode.insertBefore(j, f);
+        })(window, document, "script", "dataLayer", "GTM-PX86X4XP");
+      });
+    </script>
+
+    <script defer>
+      window.addEventListener("DOMContentLoaded", () => {
+        const btnDownload = document.querySelector("button");
+        const img = document.querySelector("img");
+
+        if (btnDownload && img) {
+          btnDownload.addEventListener("click", () => {
+            const imagePath = img.getAttribute("src");
+            const fileName = imagePath.substring(
+              imagePath.lastIndexOf("/") + 1
+            );
+            saveAs(imagePath, fileName);
+          });
+        }
+      });
+    </script>
+
+ 
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript fallback) -->
+    <noscript>
+      <iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-PX86X4XP"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe>
+    </noscript>
+
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+
+    <!-- Root App Mount Point -->
+    <div id="root"></div>
+
+    <!-- JotForm (deferred to idle) -->
+    <script>
+      requestIdleCallback(() => {
+        const jotScript = document.createElement("script");
+        jotScript.src =
+          "https://cdn.jotfor.ms/agent/embedjs/01975471ce517020b33b83343ee6c3d6fcc7/embed.js?skipWelcome=1&maximizable=1";
+        document.body.appendChild(jotScript);
+      });
+    </script>
+  </body>
+</html>

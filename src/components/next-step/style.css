@@ -1,0 +1,177 @@
+.next-step {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.next-step h3 {
+    color: #29292b;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    letter-spacing: -1px;
+   font-family: 'sequel_sans' !important;
+    margin: 0px 0px 20px 0px;
+}
+.intro-sticky {
+    background: url(https://memate-website.s3.ap-southeast-2.amazonaws.com/assets/nextstep-shadow.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.next-step button {
+  border-radius: 60px;
+  background: #29292b;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 415;
+  line-height: normal;
+  padding: 9px 26px;
+  height: 52px;
+  border: navajowhite;
+  outline: none;
+  font-family: 'sequel_sans_roman_head'!important;
+}
+
+.next-title .nextStepHeading {
+  margin-top: -35px;
+  background: linear-gradient(to right, #1ab2ff 33.15%, #ffb258 62%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  cursor: pointer;
+  text-align: center;
+ font-size: 144px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 100%;
+  letter-spacing: 0px;
+  font-family: 'sequel_sans_bold_disp' !important;
+  overflow-wrap: break-word;
+}
+
+[data-aos="AnimaT"] {
+      opacity: .2;
+      filter: blur(1px);
+      transform: translateY(10%);
+      transition: opacity 20s, filter 20s, transform 20s;
+
+      &.aos-animate {
+          opacity: 1;
+          filter: blur(0);
+          transform: translateY(0);
+      }
+}
+.next-step {
+  overflow: hidden;
+}
+.next-step .request-btn {
+  margin-top: 18px;
+}
+.next-step-btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0;
+}
+
+.next-step-page-description {
+    margin-top: 54px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+    margin-bottom: 15px;
+}
+
+.next-step-data {
+  color: #29292B;
+  text-align: center;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 415;
+  line-height: 60px; 
+  letter-spacing: -1.44px;
+ font-family: 'sequel_sans' !important;
+}
+
+.next-step-data-description {
+  color: #757B8A;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 360;
+  line-height: 32px; 
+  letter-spacing: -0.72px;
+  font-family: 'sequel_sans_roman_head' !important;
+  max-width: 700px;
+  margin-bottom: 14px;
+}
+@media screen and (max-width: 767px) {
+  .next-step {
+    margin-top: 113px;
+    margin-bottom: 15px;
+    padding: 0 15px;
+}
+.next-step h3, .next-step-data {
+  font-size: 26px;
+  letter-spacing: 0;
+  line-height: 35px;
+  margin: 10px 0px;
+}
+.next-title .nextStepHeading {
+  margin-top: 0px;
+  font-size: 50px;
+  letter-spacing: 0px;
+  margin: 10px 0px;
+}
+.next-step-page-description {
+  margin-top:0px;
+  gap: 15px;
+}
+.next-step h3 {
+  margin: 0px 0px 0px 0px;
+}
+.next-step-data-description {
+    font-size: 20px;
+    line-height: 26px;
+}
+}
+@media screen and (max-width: 992px) and (min-width: 768px){
+  .next-title .nextStepHeading {
+    margin-top: 0;
+    font-size: 70px;
+    line-height: 80px;
+    letter-spacing: 0;
+}
+  .next-step-page-description {
+    margin-top: 15px;
+}
+.next-step {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.post-card-description {
+  width: 100%;
+}
+.next-step-data {
+  font-size: 34px;
+  font-weight: 420;
+  letter-spacing: 0px;
+}
+}
+@media screen and (max-width: 1180px) and (min-width: 1024px){
+  .next-title .nextStepHeading {
+    margin-top: 0;
+    font-size: 200px;
+    line-height: 220px;
+    letter-spacing: 0px;
+  }
+  .next-step-page-description {
+    margin-top: 30px;
+}
+}

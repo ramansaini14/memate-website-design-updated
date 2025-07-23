@@ -1,0 +1,516 @@
+.main-section {
+    position: relative;
+    padding-top: 215px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mid-headingc h1 {
+    color: #29292B;
+    text-align: center;
+    -webkit-text-strokeWidth: 1px;
+    -webkit-text-stroke-color: #000;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 415;
+    line-height: 60px;
+    letter-spacing: -1.44px;
+    margin-top: 160px;
+    font-family: 'sequel_sans' !important;
+}
+.p-dialog .p-dialog-content {
+    color: #29292b;
+    padding: 0 40px;
+}
+.flexWrapBoxE, .flexWrapBoxc {
+    align-items: center;
+    display: flex;
+}
+.p-dialog-footer .firstBut {
+    align-items: center;
+    color: #344054;
+    display: flex
+;
+    font-family: sequel_sans;
+    font-weight: 300;
+    justify-content: center;
+    margin-right: 12px;
+}
+
+.borderbuttonStyle {
+    background: #fff;
+    border: 1px solid #d0d5dd;
+    border: 1px solid var(--Gray-300, #d0d5dd);
+    border-radius: 48px;
+    color: #344054;
+    color: var(--Gray-700, #344054);
+    font-weight: 415;
+}
+.borderbuttonStyle, .darkbuttonStyle {
+    align-items: center;
+    display: flex
+;
+    font-size: 16px;
+    font-style: normal;
+    gap: 8px;
+    gap: var(--spacing-md, 8px);
+    height: 44px;
+    justify-content: center;
+    line-height: normal;
+    padding: 10px 32px;
+    padding: 10px var(--spacing-4xl, 32px);
+    text-align: center;
+    width: 142.154px;
+}
+.darkbuttonStyle {
+    background: #29292b;
+    border: 1px solid #29292b;
+    border: 1px solid var(--Gray-300,#29292b);
+    border-radius: 48px;
+    color: #fff;
+    color: var(--Gray-700,#fff);
+    font-family: sequel_sans;
+    font-weight: 415;
+    font-weight: 300;
+}
+.p-dialog .p-dialog-footer {
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.requestCallback, .requestCallback h1 {
+    color: #29292b;
+    font-family: sequel_sans!important;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 415;
+    letter-spacing: -1.44px;
+    line-height: 60px;
+    text-align: center;
+}
+.PhoneInputCountry {
+    border-right: 1px solid #d0d5dd;
+    border-right: 1px solid var(--Border, #d0d5dd);
+    padding-right: 10px;
+}
+.phoneInput.PhoneInput input {
+    border: 0;
+}
+.PhoneInputInput {
+    flex: 1 1;
+    min-width: 0;
+}
+input:focus-visible {
+    outline-offset: 0;
+}
+.phoneInput.PhoneInput input {
+    border: 0;
+}
+
+.phoneInput.PhoneInput, textarea {
+    background: #fff;
+    border: 1px solid #d0d5dd;
+    border: 1px solid var(--Border,#d0d5dd);
+    border-radius: 4px;
+    border-radius: var(--radius-xs,4px);
+    color: #98a2b3;
+    color: var(--Gray-400,#98a2b3);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 310;
+    letter-spacing: -.08px;
+    line-height: 24px;
+    margin-top: 6px;
+    padding: 0 14px;
+    width: 100%;
+    
+}
+.flexWrapBoxc {
+    font-size: 14px;
+    justify-content: center;
+    margin-left: 7px;
+    margin-top: 8px;
+}
+:focus-visible{
+   outline: -webkit-focus-ring color auto 0px !important;
+}
+.p-dialog-footer {
+    border-top: 1px solid #eaecf0;
+    padding: 16px 40px;
+}
+.p-dialog .p-dialog-header {
+    border-bottom: 1px solid #eaecf0;
+    padding: 20px 40px;
+}
+
+.p-dialog .p-dialog-header {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.flexWrapBoxE {
+    justify-content: space-between;
+}
+.small-headingc p {
+    color: #757B8A;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 360;
+    line-height: 32px;
+    letter-spacing: -0.72px;
+    font-family: 'sequel_sans_roman_head' !important;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.marginTop{
+    margin-top: 20px !important;
+}
+.main-section .main-heading {
+    text-align: center;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: "sequel_sans_bold_disp" !important;
+    font-size: 220px;
+    font-style: normal;
+    line-height: 176px; /* 74.545% */
+    font-weight: 425;
+    letter-spacing: 1px;
+}
+.p-dialog .p-dialog-header {
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+.p-dialog .p-dialog-footer {
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.main-section .main-heading {
+    background: linear-gradient(to right, #1ab2ff 10.15%, #ffb258 69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main-section .main-image {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.main-section .mid-heading {
+    padding-top: 161px;
+    color: #29292B;
+    text-align: center;
+    -webkit-text-strokeWidth: 1;
+    -webkit-text-stroke-color: var(--ios-status-bar-status-bar-text-color, #000);
+    font-family: sequel_sans_roman_head!important;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    letter-spacing: -1px;
+}
+
+.main-section .mid-heading h1.h1tags {
+    color: #29292B;
+    text-align: center;
+    -webkit-text-strokeWidth: 1;
+    -webkit-text-stroke-color: var(--ios-status-bar-status-bar-text-color, #000);
+    font-family: 'sequel_sans_semi_bold_disp' !important;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    letter-spacing: 0px;
+}
+
+.main-section .small-heading {
+    padding-top: 26px;
+    color: #757B8A;
+    text-align: center;
+    font-family: "sequel_sans_roman_head" !important;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 360;
+    line-height: 140%; /* 25.2px */
+    letter-spacing: -0.18px;
+}
+
+.main-section-button {
+    border-radius: 60px;
+    background: #29292B;
+    width: 168px;
+    height: 52px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+.main-section-button {
+    color: #FFF;
+    text-align: center;
+    font-family: "sequel_sans" !important;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 415;
+    line-height: normal;
+}
+
+.query-section {
+    padding-top: 75px;
+    padding-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.query-section .query-cards {
+    display: flex;
+    gap: 19.1px;
+}
+
+.query-section .query-cards .query-card {
+    width: 386.966px;
+    height: 485.393px;
+    flex-shrink: 0;
+    padding: 38px 45px 40px 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.query-section .query-cards .query-1 {
+    border-radius: 28.571px;
+    background: radial-gradient(2055.52% 134.78% at 0% 15.21%, #1AB2FF 0%, #FFB258 100%);
+}
+
+.query-section .query-cards .query-2 {
+    border-radius: 30px;
+    background: linear-gradient(146deg, #2B2B2D 5.4%, #777 108.55%);
+}
+
+.query-section .query-cards .query-3 {
+    border-radius: 30px;
+    background: #F7F8FA;
+}
+
+.query-section .small-heading {
+    padding-top: 39px;
+    color: #757B8A;
+    text-align: center;
+    font-family: "sequel_sans_roman_head" !important;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 140%; /* 25.2px */
+    letter-spacing: -1px;
+}
+
+.query-cards .query-card .query-main {
+    display: flex;
+    flex-direction: column;
+    gap: 43px;
+}
+
+.query-cards .query-card .query-main .query-main-heading p {
+    color: #FFF;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 60px;
+    font-family: 'sequel_sans_semi_bold_disp' !important;
+}
+.query-cards .query-card .query-main .query-small-heading p {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 360;
+    line-height: 140%;
+    letter-spacing: -0.18px;
+    font-family: 'sequel_sans_roman_head' !important;
+}
+.query-cards .query-card .query-button {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.query-cards .query-card .query-button button {
+    display: flex;
+    width: 170px;
+    height: 49px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 60px;
+    border: 1px solid #FFF;
+    color: #FFF;
+    text-align: center;
+    -webkit-text-strokeWidth: 0.2907530963420868;
+    -webkit-text-stroke-color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    background: transparent;
+    font-family: 'sequel_sans' !important;
+}
+.query-cards .query-card .query-button.query-button-color button{
+    color: #29292b;
+    border: 1px solid #29292b;
+}
+
+
+.query-cards .query-card .query-main .query-color p {
+    color: #29292B;
+}
+
+.query-cards .query-card .query-button-color div {
+    border: 1px solid #29292B;
+}
+.query-cards .query-card .query-button-color div p{
+    color: #29292B;
+}
+
+.main-section.contact-section {
+    position: relative;
+    padding-top: 85px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contactParagraph{
+    font-family: 'sequel_sans_roman_head' !important;
+    letter-spacing: -1px;
+}
+.contactText{
+    font-family: 'sequel_sans_semi_bold_disp' !important;
+}
+.ContactSubText{
+    font-family: 'sequel_sans_roman_head' !important;
+
+}
+.requestCallback, .requestCallback h1 {
+    color: #29292B;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 415;
+    line-height: 60px;
+    letter-spacing: -1.44px;
+    font-family: 'sequel_sans' !important;
+}
+@media screen and (max-width: 767px) {
+    #contactUsPage .main-image img {
+        width: 100%;
+        height: auto;
+    }
+    .small-heading p.ContactSubText {
+    font-size: 20px;
+    line-height: 28px;
+}
+    .query-section.query-sectionc {
+    margin-top: 50px;
+}
+    .mid-headingc h1 {
+    font-size: 26px;
+    line-height: 30px;
+    letter-spacing: 0;
+    margin-top: 57px;
+}
+.small-headingc p {
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0;
+    margin-top: 9px;
+}
+    #contactUsPage .main-heading {
+        font-size: 60px;
+        line-height: 51px;
+    }
+    #contactUsPage .main-section .mid-heading {
+        padding-top:80px;
+        font-size: 22px;
+    }
+    #contactUsPage .query-section .query-cards {
+        display: block;
+
+    }
+    #contactUsPage .query-section {
+        padding-top: 0;
+        padding-bottom:0px;
+    }
+    #contactUsPage .query-section .query-cards .query-card {
+        width: 100%;
+        height: auto;
+        padding:30px;
+        margin-bottom: 15px;
+    }
+    .main-section .small-heading {
+        padding-top: 10px;
+    }
+    .query-cards .query-card .query-main {
+        gap: 15px;
+    }
+    .query-cards .query-card .query-button {
+        margin-top: 20px;
+    }
+    #contactUsPage .query-cards .query-card .query-main .query-main-heading p {
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .query-main-heading, .query-small-heading {
+        text-align: center;
+    }
+    #contactUsPage .main-section-button {
+        margin-bottom: 25px;
+    }
+    #contactUsPage .query-section .small-heading {
+        padding: 15px;
+    }
+    #contactUsPage .main-section {
+        padding-top: 76px;
+    }
+    .main-section .mid-heading h1.h1tags {
+        font-size: 22px;
+    }
+    .main-section .mid-heading h1.h1tags br {
+        display: none;
+    }
+    .contact-section .request-btn .btn-base--black {
+        margin-bottom: 35px;
+    }
+}
+@media screen and (max-width: 1180px) and (min-width: 768px){
+    .query-section {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        display: block;
+        padding: 30px 15px;
+    }
+    .main-section .mid-heading {
+        font-size: 30px;
+        letter-spacing: 0;
+    }
+    .query-section .query-cards .query-card {
+        width: 33%;
+        height: auto;
+        flex-shrink: 0;
+        padding:15px;
+    }
+    .query-cards .query-card .query-main {
+        gap: 20px;
+    }
+    .query-cards .query-card .query-main .query-main-heading p {
+        font-size: 30px;
+        line-height: 38px;
+    }
+    .query-small-heading {
+        margin-bottom: 20px;
+    }
+}
+

@@ -1,0 +1,19 @@
+.itemFlex .withHover{
+    opacity: 0;
+    }
+    .itemFlex:hover .withHover{
+    opacity: 0;
+    }
+    .itemFlex:hover .withoutHover{
+    opacity: 1;
+    }
+
+.techText{
+    font-family: 'sequel_sans_semi_bold_disp' !important;
+    text-decoration: none;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 150%;
+}
+ 

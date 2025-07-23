@@ -1,0 +1,279 @@
+.sales-component-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sales-heading {
+    padding-bottom: 10px;
+    color: transparent;
+    text-align: center;
+    font-feature-settings: "liga" off, "clig" off;
+    background: linear-gradient(to right, #1ab2ff -25.85%, #ffb258 102%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 25px;
+    font-size: 180px;
+    font-style: normal;
+    font-weight: 425;
+    line-height: 169px;
+    letter-spacing: -1px;
+    padding-right: 0px;
+    font-family: sequel_sans_roman_head!important;
+}
+.client-heading{
+  padding-bottom: 55px;
+}
+
+.sales-componet-content-wrapper {
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0px 2%;
+}
+.sales-componet-content-wrapper p {
+  font-size: 42px;
+  font-weight: 420;
+  font-family: sequel_sans_roman_head!important;
+  color: #29292b;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased; 
+  -moz-osx-font-smoothing: grayscale; 
+}
+/* changeds */
+.sales-componet-content-wrapper span {
+  text-align: center;
+  font-family: 'sequel_sans_roman_head' !important;
+  font-weight: 100;
+  line-height: 25.2px;
+  color: #757B8A;
+  font-size:18px;
+  
+}
+.sales-component-content h1{
+  color: #757B8A;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 360;
+  line-height: 140%; 
+}
+.sales-heading.client-heading-ServiceM8 {
+  font-size: 82px;
+  line-height: 76px;
+}
+
+.sales-component-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  max-width: 750px;
+  word-wrap: break-word; 
+  overflow-wrap: break-word; 
+  white-space: normal;
+}
+.client-component-para{
+  margin: 0 !important;
+}
+.sales-component-button-wrapper {
+  margin-top: 30px;
+}
+.compaire-service01 {
+  /* margin: -293px auto -348px; */
+  text-align: center;
+}
+.sales-component-wrapperm8:before {
+  border-radius: 670px;
+  background: radial-gradient(ellipse at left, #1AB2FF, #FFB258);
+  /* background: radial-gradient(544.32% 42.04% at 30.03% 49.15%, #1AB2FF  0.15%, #FFB258 100%); */
+  filter: blur(277px);
+  width: 50%;
+  height: 50%;
+  content: "";
+  position: absolute;
+  z-index: -1;
+}
+.sales-component-wrapperm8 {
+  position: relative;
+}
+.compaireHeadPara {
+  text-align: center;
+  margin-top: 79px;
+}
+
+.compaireHeadPara p {
+  color: #757B8A;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 140%;
+  width: 40%;
+  margin: 8px auto;
+  font-family: 'sequel_sans_roman_head' !important;
+}
+@media screen and (max-width: 767px) {
+  .compaireHeadPara p {
+    width: 100%;
+    font-size: 18px !important;
+  }
+  .client-heading-ServiceM8 .compaireHeadPara {
+    text-align: center;
+    margin-top: 31px;
+  }
+  .compaire-service01 {
+    /* margin: -40px auto -64px; */
+    text-align: center;
+}
+.compaireHeadPara {
+  text-align: center;
+  margin-top: 31px;
+}
+  .compaireHeadPara h2 {
+    font-size: 22px;
+  }
+ }
+
+.compaireHeadPara h2 {
+  color: #29292B;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: normal;
+  font-family: 'sequel_sans_semi_bold_disp' !important;
+}
+@media screen and (max-width: 767px) {
+  .compaireHeadPara h2 {
+    font-size: 22px;
+  }
+  .compaireHeadPara p {
+    font-size: 18px;
+  }
+ }
+.sales-component-button-wrapper button {
+  border-radius: 60px;
+  background: #29292b;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 415;
+  line-height: 21.24px;
+  padding: 16px 24px 16px;
+  /* width: 168px; */
+  outline: none;
+  font-family: sequel_sans_roman_head!important;
+}
+@media screen and (max-width: 767px) {
+  .compaire-service01 img {
+    width: 100%;
+}
+  .sales-heading {
+    font-size: 30px !important;
+    line-height: 38px!important;
+    padding-bottom: 0;
+    margin-top: 0;
+}
+.sales-heading br, p.sales-type br{
+  display: none;
+}
+.sales-component-content {
+  margin-top: 0;
+  max-width: 100%;
+}
+.sales-management-wrapper-data img, .modal-contact img, .pipeline-image-wrapper img, .sales-process-optimization-image img, .aglie-pipeline-management-wrapper img, .sales-process-optimization-image {
+  width: 100%;
+}
+.sales-process-optimization-image {
+  margin-right: 0px;
+  width: 100%;
+}
+.sales-component-feature h1 {
+  font-size: 50px !important;
+  line-height: 58px !important;
+  text-align: center;
+  letter-spacing: 0 !important;
+}
+.sales-component-feature-wrapper {
+  margin-top: 30px;
+}
+.sales-component-feature h1 {
+  margin-top: 0px !important;
+}
+.sales-component-feature-wrapper, .content-wrapper, .aglie-pipeline-management-wrapper{
+  margin-top: 20px !important;
+}
+p.sales-description-sales br, span.smart-investment-section-description br {
+  display: none;
+}
+.sales-type {
+  font-size: 28px !important;
+  line-height: 36px !important;
+}
+p.sales-description-sales {
+  margin-top: 10px;
+}
+.content-wrapper, .smart-investment-banner {
+  text-align: center;
+}
+.sales-feature-wrapper {
+  padding: 0 15px;
+}
+.sales-feature-wrapper {
+  margin-top: 10px;
+}
+.smart-investment-wrapper {
+  padding-top: 15px;
+}
+.smart-investment-description {
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+}
+
+.sales-component-feature-wrapper, .sales-management-wrapper-data, .pipeline-tool-wrapper,  .aglie-pipeline-management-wrapper {
+  display: block !important;
+}
+.question-answer-wrapper {
+  margin: 0;
+  padding: 0 0px;
+}
+.question-answer-content {
+  width: 100%;
+  padding: 15px;
+}
+.sales-feature-wrapper {
+  margin-top:0px !important;
+  max-width: 100% !important;
+}
+.smart-investment-wrapper {
+  padding: 15px !important;
+}
+}
+@media screen and (max-width: 992px) and (min-width: 768px){
+  .client-heading {
+    padding-bottom: 15px;
+}
+.sales-heading {
+  margin-top: 15px;
+  font-size: 70px;
+  line-height: 80px;
+  letter-spacing:0px;
+}
+.sales-heading br {
+  display: none;
+}
+.sales-component-content {
+  margin-top: 0;
+}
+}
+
+@media screen and (max-width: 1180px) and (min-width: 1024px){
+
+}
+	

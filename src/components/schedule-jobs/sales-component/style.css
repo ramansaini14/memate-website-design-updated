@@ -1,0 +1,97 @@
+.sales-component-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.jobs-heading {
+  line-height: 188px !important;
+}
+.sales-heading {
+  padding-bottom: 10px;
+  color: transparent;
+  text-align: center;
+  font-feature-settings: "liga" off, "clig" off;
+  margin-top: 25px;
+  font-size: 180px;
+  font-style: normal;
+  font-weight: 425;
+  line-height: 169px;
+  letter-spacing: -1px;
+  padding-right: 0px;
+  font-family: sequel_sans_roman_head!important;
+  background: linear-gradient(to right, #1ab2ff 33.15%, #ffb258 62%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.client-heading{
+  padding-bottom: 55px;
+}
+
+.sales-componet-content-wrapper {
+  margin-top: 77px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding:0px 2%;
+}
+
+.sales-componet-content-wrapper p {
+  font-size: 42px;
+  font-weight: 420;
+  font-family: sequel_sans_roman_head!important;
+  color: #29292b;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased; 
+  -moz-osx-font-smoothing: grayscale; 
+}
+
+.sales-componet-content-wrapper span {
+  text-align: center;
+  font-family: sequel_sans_roman_head!important;
+  font-weight: 360;
+  line-height: 25.2px;
+  color: #757B8A;
+  font-size:18px;
+}
+
+.sales-component-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  max-width: 750px;
+  word-wrap: break-word; 
+  overflow-wrap: break-word; 
+  white-space: normal;
+}
+.client-component-para{
+  margin: 0 !important;
+}
+.sales-component-button-wrapper {
+  margin-top: 30px;
+}
+.sales-component-button-wrapper button {
+  border-radius: 60px;
+  background: #29292b;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 415;
+  line-height: 21.24px;
+  padding: 16px 24px 16px;
+  /* width: 168px; */
+  outline: none;
+  font-family: sequel_sans_roman_head!important;
+}
+
+.LineHeightAndFont{
+  font-size: 156px !important;
+  line-height: 146px !important;
+  color: red !important;
+  padding-bottom: 20px !important;
+}

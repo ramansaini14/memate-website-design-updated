@@ -1,0 +1,96 @@
+.industry-more-specific-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.industry-more-specific-heading {
+  color: #29292b;
+  margin-top: 65px;
+  text-align: center;
+  font-family: sequel_sans_roman_head!important;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 420;
+  line-height: normal;
+  letter-spacing: -1px;
+}
+.industry-more-specific-description {
+  margin: auto;
+  color: #888e9e;
+  max-width: 694px;
+  width: 100%;
+  margin-top: 30px;
+  text-align: center;
+  font-family: "sequel_sans_roman_head" !important;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 360;
+  line-height: 140%;
+  letter-spacing: -0.2px;
+}
+
+.more-specific-wrapper {
+  border-radius: 30px;
+  background: #f7f8fa;
+  margin: auto;
+  width: 100%;
+  height:auto;
+  flex-shrink: 0;
+  padding-top: 71px;
+  padding-left:69px;
+  padding-right:69px;
+  margin-top: 50px;
+  margin-bottom: 21px;
+}
+
+.more-specific-upper-card-wrapper{
+  display: flex;
+  gap: 30px;
+  }
+
+  .more-specific-lower-card-wrapper{
+    display: flex;
+    gap: 30px;
+    margin-top: 12px;
+    margin-bottom: 43.8px;
+    }
+    @media screen and (max-width: 767px) {
+      .more-specific-upper-card-wrapper {
+        display: block;
+    }
+    .more-specific-wrapper, .industry-crousel-wrapper {
+      padding: 15px;
+      margin: 15px 0;
+  }
+  .industry-more-specific-heading {
+    margin-top: 15px;
+    font-size: 30px;
+    letter-spacing: 0;
+}
+.industry-more-specific-description {
+  width: 100%;
+  margin-top: 5px;
+  font-size: 16px;
+  letter-spacing: 0;
+}
+.industry-crousel-heading, .more-specific-card-heading {
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0;
+}
+.more-specific-lower-card-wrapper {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.more-specific-card {
+  margin-top: 15px;
+}
+  .more-specific-card-heading, .more-specific-card-description {
+    width: 100% !important;
+    margin-top: 15px !important;
+}
+
+    }

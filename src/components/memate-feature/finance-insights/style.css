@@ -1,0 +1,36 @@
+.efficiency-section-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.efficiency-section{
+    width: 1200px;
+}
+.shadowRightline2::after {
+    
+    border-radius: 516.412px;
+    background: rgba(255, 178, 89, 0.44);
+    filter: blur(84.8499984741211px);
+    width: 167.504px;
+    height: 395.608px;
+    flex-shrink: 0;
+    content: "";
+    position: absolute;
+    right: 0px;
+    top: -45px;
+    z-index: -1;
+}
+.shadowLeftline2::before {
+    border-radius: 395.608px;
+    background: rgba(30, 178, 220, 0.33);
+    filter: blur(84.8499984741211px);
+    width: 97.296px;
+    height: 516.412px;
+    flex-shrink: 0;
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}

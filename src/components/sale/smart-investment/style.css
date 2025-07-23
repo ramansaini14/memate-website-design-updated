@@ -1,0 +1,123 @@
+.smart-investment-wrapper {
+  padding-top: 140px;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.smart-investment-heading {
+  font-family: sequel_sans_roman_head!important;
+  font-size: 42px;
+  font-weight: 420;
+  letter-spacing: -1px;
+  color: #29292b;
+  font-style: normal;
+  line-height: normal;
+}
+
+.smart-investment-banner {
+  background: linear-gradient(to right, #1ab2ff -25.85%, #ffb258 102%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 25px;
+  font-size: 118px;
+  font-style: normal;
+  font-weight: 425;
+  line-height: 1.1;
+  letter-spacing: -1px;
+  padding-right: 10px;
+  font-family: sequel_sans_roman_head!important;
+}
+
+.smart-investment-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 53px;
+  margin-bottom: 50px;
+}
+.smart-investment-section-description {
+  font-size: 20px;
+  font-family: sequel_sans_roman_head!important;
+  line-height: 28px;
+  font-weight: 360;
+  color: #888e9e;
+  width: 100%;
+  text-align: center;
+}
+
+.investment-button-wrapper {
+  display: flex;
+  margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.monthly-investment-button {
+  width: 138px;
+  height: 62px;
+  border-radius: 60px;
+  background-color: #ffffff;
+  border: none;
+}
+
+.monthly-investment-button-active {
+  width: 138px;
+  height: 62px;
+  border-radius: 60px;
+  background: linear-gradient(to right, #1ab2ff 10.15%, #ffb258 86%);
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 415;
+  border: none;
+  font-family: sequel_sans_roman_head!important;
+  line-height: 21.42px;
+  cursor: pointer;
+}
+.yearly-investment-button {
+  width: 138px;
+  height: 62px;
+  border-radius: 60px;
+  background-color: #ffffff;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0px;
+  cursor: pointer;
+}
+
+.investment-button-wrapper {
+  border: 1px solid #d0d5dd;
+  border-radius: 60px;
+}
+.yearly-plan {
+  font-family: sequel_sans_roman_head!important;
+  line-height: 21.42px;
+  font-weight: 415;
+  color: #000000;
+  font-size: 18px;
+}
+
+.save-discount {
+  font-family: sequel_sans_roman_head!important;
+  line-height: 21.42px;
+  font-weight: 415;
+  color: #888e9e;
+  font-size: 18px;
+}
+
+.invest-plan-wrapper {
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1264px;
+}
+
+

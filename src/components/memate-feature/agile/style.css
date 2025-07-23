@@ -1,0 +1,11 @@
+.agile-container-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mainOperationRight .main-operation {
+    padding-right: 0;
+}
+.mainOperationspace .main-operation {
+    padding: 26px 0 13px;
+}

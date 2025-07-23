@@ -1,0 +1,27 @@
+.pipeline-tool-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.pipeline-image-wrapper {
+  display: flex;
+}
+
+.filter-pipelineimage {
+  margin-bottom: auto;
+}
+@media screen and (max-width: 767px) {
+  .pipeline-image-wrapper {
+    display: block !important;
+}
+.pipeline-tool-wrapper {
+  margin-top: 0px !important;
+  margin-bottom: 15px !important;
+}
+.pipeline-image-wrapper img {
+  margin-bottom: 15px !important;
+}
+}
