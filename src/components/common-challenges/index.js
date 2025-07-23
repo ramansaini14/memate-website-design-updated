@@ -88,7 +88,7 @@ const CommonChallenges = () => {
              {/* <img src={'https://memate-website.s3.ap-southeast-2.amazonaws.com/assets/slider/streamline-img24-min.jpg'} alt="MeMate branding guidelines" loading="lazy"/> */}
                 <h4>Overcome scaling challenges <br/> caused by manual processes </h4>
             </div>
-          </div>
+        </div>
         {/* <div className="control-main-sec" data-aos="fade-up"
           data-aos-offset="50"
           data-aos-delay="50"
@@ -202,7 +202,8 @@ const CommonChallenges = () => {
               </div>
             </div>
           </div>
-        </div>
+                  </div>
+        </div> */}
       </div>
     </div>
   );
