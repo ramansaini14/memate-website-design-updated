@@ -6,7 +6,9 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "optimize-images": "node scripts/optimize-images.mjs",
+    "replace-optimized": "node scripts/replace-optimized-images.mjs"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
@@ -28,9 +30,9 @@
     "react-dom": "19.1.0",
     "react-google-recaptcha": "^3.1.0",
     "react-helmet-async": "^2.0.5",
-          "react-hook-form": "^7.60.0",
-      "react-lazy-load-image-component": "^1.6.3",
-      "react-loader-spinner": "^6.1.6",
+    "react-hook-form": "^7.60.0",
+    "react-lazy-load-image-component": "^1.6.3",
+    "react-loader-spinner": "^6.1.6",
     "react-phone-number-input": "^3.4.12",
     "react-player": "^3.3.1",
     "react-responsive-modal": "^7.0.0",
@@ -53,6 +55,10 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "15.4.2",
+    "imagemin": "^9.0.1",
+    "imagemin-mozjpeg": "^10.0.0",
+    "imagemin-pngquant": "^10.0.0",
+    "imagemin-webp": "^8.0.0",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
