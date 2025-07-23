@@ -27,6 +27,21 @@ export default function RootLayout({ children }) {
         <link rel="icon" type="image/png" href="/favicon.png" />
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <link rel="apple-touch-icon" href="/favicon.png" />
+        
+        {/* Preload critical images */}
+        <link
+          rel="preload"
+          as="image"
+          href="https://memate-website.s3.ap-southeast-2.amazonaws.com/assets/slider/img-hero-min.webp"
+          type="image/webp"
+        />
+        <link
+          rel="preload"
+          as="image"
+          href="https://memate-website.s3.ap-southeast-2.amazonaws.com/assets/slider/video-sticky-img-min.png"
+          type="image/png"
+        />
+        
         <script
           dangerouslySetInnerHTML={{
             __html: `

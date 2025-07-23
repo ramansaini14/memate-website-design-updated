@@ -5,7 +5,7 @@ import ReactPlayer from 'react-player'
 import 'react-responsive-modal/styles.css';
 import { Modal } from 'react-responsive-modal';
 import PlayIconVideo from '../../svg/PlayIconVideo';
-import { LazyLoadImage } from 'react-lazy-load-image-component';
+import Image from 'next/image';
 import PauseIconVideo from '../../svg/PauseIconVideo';
 const LessBusyness = () => {
 
@@ -103,13 +103,16 @@ const LessBusyness = () => {
               </div>
               <div className={style.videoWrapper2}></div>
               <div className={style.videooverlyImage}>
-                <LazyLoadImage
+                <Image
                   alt="CRM for Small Business"
                   src="https://memate-website.s3.ap-southeast-2.amazonaws.com/assets/slider/video-sticky-img-min.png"
-                  effect="blur"
+                  width={400}
+                  height={300}
+                  quality={85}
+                  sizes="(max-width: 768px) 100vw, 400px"
+                  placeholder="blur"
+                  blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkbHB0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
                 />
-
-
               </div>
             </div>
           </div>

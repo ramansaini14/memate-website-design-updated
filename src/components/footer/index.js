@@ -1,15 +1,14 @@
 import React from "react";
 import "./style.css";
-import Link from "next/link";
-import Heart from "../../svg/heart";
-import { LazyLoadImage } from "react-lazy-load-image-component";
+import Link from 'next/link';
+import Image from 'next/image';
 const FacebookIcon = "https://memate-website.s3.ap-southeast-2.amazonaws.com/assets/footer-facebook.svg";
 const LinkdinIcon = "https://memate-website.s3.ap-southeast-2.amazonaws.com/assets/footer-linkdin.svg";
 const InstagramIcon = "https://memate-website.s3.ap-southeast-2.amazonaws.com/assets/footer-instagram.svg";
 const AppStoreIcon = "https://memate-website.s3.ap-southeast-2.amazonaws.com/assets/app-store-icon.svg";
 const PlayStoreIcon = "https://memate-website.s3.ap-southeast-2.amazonaws.com/assets/play-store-icon.svg";
 const MacAppStoreIcon = "https://memate-website.s3.ap-southeast-2.amazonaws.com/assets/mac-app-store.svg";
-const MicrosoftAppStoreIcon = "https://memate-website.s3.ap-southeast-2.amazonaws.com/assets/microsoft-app-store.svg"
+const MicrosoftAppStoreIcon = "https://memate-website.s3.ap-southeast-2.amazonaws.com/assets/microsoft-app-store.svg";
 
 const Footer = () => {
   return (
@@ -31,9 +30,9 @@ const Footer = () => {
                 </p>
             </div>
             <div className="footer-icons">
-              <div><Link href="https://www.facebook.com/mematesoftware/"><img src={FacebookIcon} alt="FacebookIcon"/></Link></div>
-              <div><Link href="https://www.instagram.com/memateapp/"><img src={InstagramIcon} alt="InstagramIcon" /></Link></div>
-              <div><Link href="https://www.linkedin.com/uas/login?session_redirect=%2Fcompany%2F78408530"><img src={LinkdinIcon} alt="LinkdinIcon" /></Link></div>
+              <div><Link href="https://www.facebook.com/mematesoftware/"><Image src={FacebookIcon} alt="FacebookIcon" width={24} height={24}/></Link></div>
+              <div><Link href="https://www.instagram.com/memateapp/"><Image src={InstagramIcon} alt="InstagramIcon" width={24} height={24}/></Link></div>
+              <div><Link href="https://www.linkedin.com/uas/login?session_redirect=%2Fcompany%2F78408530"><Image src={LinkdinIcon} alt="LinkdinIcon" width={24} height={24}/></Link></div>
             </div>
           </div>
           <div className="download-section">
@@ -41,15 +40,15 @@ const Footer = () => {
             <div className="application-section">
               <p>Mobile Application for Employees and Contractors</p>
               <div className="application-icons">
-                <div><Link href="https://play.google.com/store/apps/details?id=com.memate&pli=1"><img src={AppStoreIcon} alt="AppStoreIcon" /></Link></div>
-                <div><Link href="https://apps.apple.com/in/app/memate/id1563935364"><img src={PlayStoreIcon} alt="PlayStoreIcon" /></Link></div>
+                <div><Link href="https://play.google.com/store/apps/details?id=com.memate&pli=1"><Image src={AppStoreIcon} alt="AppStoreIcon" width={120} height={40}/></Link></div>
+                <div><Link href="https://apps.apple.com/in/app/memate/id1563935364"><Image src={PlayStoreIcon} alt="PlayStoreIcon" width={120} height={40}/></Link></div>
               </div>
             </div>
             <div className="application-section">
               <p>Desktop Application for Business Management</p>
               <div className="application-icons">
-                <div><img src={MacAppStoreIcon} alt="MacAppStoreIcon" /></div>
-                <div><img src={MicrosoftAppStoreIcon} alt="MicrosoftAppStoreIcon" /></div>
+                <div><Image src={MacAppStoreIcon} alt="MacAppStoreIcon" width={120} height={40}/></div>
+                <div><Image src={MicrosoftAppStoreIcon} alt="MicrosoftAppStoreIcon" width={120} height={40}/></div>
               </div>
             </div>
             <div className="paragraph-section">
@@ -173,10 +172,11 @@ const Footer = () => {
             {/* <p>© MeMate 2024 </p> */}
            <p>Copyright © 2022-2025 | meMate</p>
             <div className="copyright-links">
-              <LazyLoadImage
+              <Image
                 alt="contact MeMate"
                 src="https://res.cloudinary.com/dn0jqjad3/image/upload/v1747717590/Powered-By_logo-stack_CMYK_ew121c.webp"
-                effect="blur" 
+                width={150}
+                height={30}
               />
               </div>
           </div>

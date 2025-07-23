@@ -1,4 +1,19 @@
-import { LazyLoadImage } from "react-lazy-load-image-component";
+import React from "react";
+import Images from "../../assests/images";
+import Image from "next/image";
+import MetaLogo from "../../svg/MetaLogo";
+import Note from "../../svg/Note";
+import Supplier from "../../svg/Supplier";
+import GraphIcon from "../../svg/GraphIcon";
+import WorkIcon from "../../svg/WorkIcon";
+import Calender from "../../svg/Calender";
+import ShopIcon from "../../svg/ShopIcon";
+import Empty from "../../svg/Empty";
+import DashBoardIcon from "../../svg/DashBoardIcon";
+import IconPople from "../../svg/IconPople";
+import ApprovalIcon from "../../svg/ApprovalIcon";
+import ProfileIcon from "../../svg/ProfileIcon";
+import ExportTag from "../../svg/ExportTag";
 import "./style.css";
 
 const CommonChallenges = () => {
@@ -18,40 +33,56 @@ const CommonChallenges = () => {
         <div className="streamlineimggrid" data-aos="fade-up"
           data-aos-offset="50"  >
             <div className="gridboxstreamline item1"> 
-               <LazyLoadImage
+               <Image
                             alt="MeMate brand assets"
                             src={'https://memate-website.s3.ap-southeast-2.amazonaws.com/assets/slider/streamline-img22.jpg'}
-                            effect="blur" 
+                            width={400}
+                            height={300}
+                            quality={85}
+                            placeholder="blur"
+                            blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkbHB0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
                             style={{ width: "100%", height: "auto" }}
                           />
              {/* <img src={'https://memate-website.s3.ap-southeast-2.amazonaws.com/assets/slider/streamline-img22.jpg'} alt="MeMate brand assets" loading="lazy"/> */}
               <h4>A system designed for complete <br/> control over business activities</h4>
             </div>
             <div className="gridboxstreamline item2"> 
-               <LazyLoadImage
+               <Image
                             alt="MeMate logo download"
                             src={'https://memate-website.s3.ap-southeast-2.amazonaws.com/assets/slider/streamline-img21-min.jpg'}
-                            effect="blur" 
+                            width={400}
+                            height={300}
+                            quality={85}
+                            placeholder="blur"
+                            blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkbHB0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
                             style={{ width: "100%", height: "auto" }}
                           />
              {/* <img src={'https://memate-website.s3.ap-southeast-2.amazonaws.com/assets/slider/streamline-img21-min.jpg'} alt="	MeMate logo download" loading="lazy"/> */}
                <h4>Track Every Expense and Time <br/> Allocated to Your Projects</h4>
             </div>
             <div className="gridboxstreamline item3"> 
-              <LazyLoadImage
+              <Image
                             alt="business software brand kit"
                             src={'https://memate-website.s3.ap-southeast-2.amazonaws.com/assets/slider/streamline-img23-min.jpg'}
-                            effect="blur" 
+                            width={400}
+                            height={300}
+                            quality={85}
+                            placeholder="blur"
+                            blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkbHB0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
                             style={{ width: "100%", height: "auto" }}
                           />
              {/* <img src={'https://memate-website.s3.ap-southeast-2.amazonaws.com/assets/slider/streamline-img23-min.jpg'} alt="business software brand kit" loading="lazy"/> */}
               <h4>See and predict unprofitable <br/> business activities.</h4>
             </div>
             <div className="gridboxstreamline item4"> 
-               <LazyLoadImage
+               <Image
                             alt="MeMate branding guidelines"
                             src={'https://memate-website.s3.ap-southeast-2.amazonaws.com/assets/slider/streamline-img24-min.jpg'}
-                            effect="blur" 
+                            width={400}
+                            height={300}
+                            quality={85}
+                            placeholder="blur"
+                            blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkbHB0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
                             style={{ width: "100%", height: "auto" }}
                           />
              {/* <img src={'https://memate-website.s3.ap-southeast-2.amazonaws.com/assets/slider/streamline-img24-min.jpg'} alt="MeMate branding guidelines" loading="lazy"/> */}
@@ -71,7 +102,7 @@ const CommonChallenges = () => {
                 <p className="memateMetaLogo">
                 <MetaLogo/>
                 </p>
-                <img className="main-bg-img" src={Images.cardBg} alt="cardBg" />
+                <Image className="main-bg-img" src={Images.cardBg} alt="cardBg" width={400} height={300} quality={85}/>
                 <div className="me-meta-image">
                   <p className="card-text">
                     Establish comprehensive control within the company 24/7 from
@@ -133,9 +164,9 @@ const CommonChallenges = () => {
                 </p>
               </div>
               <div className="business-profile">
-                <img className="image-business" src={Images.busprofile} alt="busprofile"/>
-                <img className="mask-business" src={Images.mask} alt="mask" type="image/svg+xml" />
-                <img className="graph-business" src={Images.graphBuss} alt="graphBuss" type="image/svg+xml" />
+                <Image className="image-business" src={Images.busprofile} alt="busprofile" width={120} height={120} quality={85}/>
+                <Image className="mask-business" src={Images.mask} alt="mask" width={150} height={150} quality={85}/>
+                <Image className="graph-business" src={Images.graphBuss} alt="graphBuss" width={200} height={150} quality={85}/>
               </div>
             </div>
           </div>
@@ -160,7 +191,7 @@ const CommonChallenges = () => {
             data-aos-once="false"
             data-aos-anchor-placement="top-bottom">
             <div className="gain-time ">
-              <img className="graph-number" src={Images.graphAndNum} alt="graphAndNum" type="image/svg+xml" />
+              <Image className="graph-number" src={Images.graphAndNum} alt="graphAndNum" width={300} height={200} quality={85}/>
             </div>
             <div className="overcome-pro ">
               <div className="overcome-pro-content">
