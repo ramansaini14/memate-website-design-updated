@@ -186,7 +186,7 @@ const supplier_services_id = data.supplied_services?.value || '';
         <div className="parent-blog">
           <div className="pageBreadcrumbs">
             <ul className={style.linkstyleDisable}>
-              <li><Link href='/' className={style.linkstyleDisable}>Home</Link></li>/<li><Link href='/supplier-database' className={style.linkstyleDisable}>Supplier database</Link></li>/<li> <Link>Add New</Link></li>
+              <li><Link href='/' className={style.linkstyleDisable}>Home</Link></li>/<li><Link href='/supplier-database' className={style.linkstyleDisable}>Supplier database</Link></li>/<li> <span>Add New</span></li>
             </ul>
             <Link href='/supplier-database' className="backButStories"><img src={arrowIconBack} alt="Arrow" /> Back</Link>
           </div>
