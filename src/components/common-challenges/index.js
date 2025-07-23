@@ -2,13 +2,13 @@ import React from "react";
 import Images from "../../assests/images";
 import Image from "next/image";
 import MetaLogo from "../../svg/MetaLogo";
-import Note from "../../svg/Note";
+// import Note from "../../svg/Note";
 import Supplier from "../../svg/Supplier";
 import GraphIcon from "../../svg/GraphIcon";
 import WorkIcon from "../../svg/WorkIcon";
 import Calender from "../../svg/Calender";
 import ShopIcon from "../../svg/ShopIcon";
-import Empty from "../../svg/Empty";
+// import Empty from "../../svg/Empty";
 import DashBoardIcon from "../../svg/DashBoardIcon";
 import IconPople from "../../svg/IconPople";
 import ApprovalIcon from "../../svg/ApprovalIcon";
@@ -123,7 +123,7 @@ const CommonChallenges = () => {
                       <ExportTag/>
                     </div>
                     <div className="user-prof">
-                      <Note/>
+                      {/* <Note/> */}
                     </div>
                     <div className="user-prof">
                       <Supplier/>
@@ -141,7 +141,7 @@ const CommonChallenges = () => {
                       <ShopIcon/>
                     </div>
                     <div className="user-prof">
-                      <Empty/>
+                      {/* <Empty/> */}
                     </div>
                     <div className="user-prof">
                       <DashBoardIcon/>
@@ -202,7 +202,7 @@ const CommonChallenges = () => {
               </div>
             </div>
           </div>
-        </div> */}
+        </div>
       </div>
     </div>
   );
